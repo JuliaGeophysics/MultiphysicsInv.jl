@@ -1,0 +1,710 @@
+Tue Oct 20 03:12:59 2020
+Tue Oct 20 03:12:59 2020
+Tue Oct 20 03:12:59 2020
+Tue Oct 20 03:12:59 2020
+Tue Oct 20 03:12:59 2020
+Tue Oct 20 03:12:59 2020
+Tue Oct 20 03:12:59 2020
+Tue Oct 20 03:12:59 2020
+Tue Oct 20 03:12:59 2020
+Tue Oct 20 03:12:59 2020
+Tue Oct 20 03:12:59 2020
+Tue Oct 20 03:12:59 2020
+Tue Oct 20 03:12:59 2020
+Tue Oct 20 03:12:59 2020
+Tue Oct 20 03:12:59 2020
+Tue Oct 20 03:12:59 2020
+Tue Oct 20 03:12:59 2020
+Tue Oct 20 03:12:59 2020
+Tue Oct 20 03:12:59 2020
+Tue Oct 20 03:12:59 2020
+===============================================================================
+   Started running the following em25d commands:  
+/aa3/pankaj/JInv/EM25D/em25d/em25d flist=0.1,0.2,0.4 model=./inversion1_EM/EM01_voro_300pts_1_0.h5 verbose=5 sabs=1 rabs=1 acqui_file=SEAMacqui ofile=out_forward.nc minOff=1000,1000,1000 maxOff=10000,10000,10000 NoiseEx=0,0,0 invType=sd mode=forward_cost bedThreshold=3.2 bedJump=0.01 
+===============================================================================
+ em25d: No. of frequencies: 3
+ em25d: Frequency values: 0.1 0.2 0.4 
+ em25d: No. of minOffset: 3
+ em25d: minOffset values: 1000 1000 1000 
+ em25d: No. of maxOffset: 3
+ em25d: maxOffset values: 10000 10000 10000 
+ em25d: No. of NoiseEx: 3
+ em25d: NoiseEx values: 0 0 0 
+ em25d: Calling emfield_compute.
+ ===============================================================================
+ ===================   Start Main Modeling Engine   ============================
+ ===============================================================================
+ 
+ emfield_compute: ************** Getting model dimensions and data *************
+ ******* Started reading model dimensions ********
+ ******* Finished reading model dimensions for: 
+ ./inversion1_EM/EM01_voro_300pts_1_0.h5
+ get_model_dim: model dimensions nx,ny,nz:          196           1          71
+ ******* Started reading model data ********
+ ***** Successfully finished reading model data for 
+ ./inversion1_EM/EM01_voro_300pts_1_0.h5
+ 
+ **************** Started reading model origin ************************
+ ***** Successfully finished reading model origin for 
+ ./inversion1_EM/EM01_voro_300pts_1_0.h5
+GN_xemfield: Model origin x0,y0,z0:      0.00      0.00      0.00
+   200.0000    
+   minimum-maximum vertical model cond   :   9.9999997E-06   3.330000    
+ emfield_compute: ********* Finished getting model dimensions and data *********
+ 
+ emfield_compute: *********  Generating grid container for FD modeling  ********
+   minimum-maximum cell sizes in x-dir   :    199.9990       2365.688    
+   minimum-maximum cell sizes in y-dir   :    200.0000       200.0000    
+   minimum-maximum cell sizes in z-dir   :    100.0000       8808.880    
+   model size in x - direction           :    55200.00    
+   model size in z - direction           :    64099.99    
+ 
+ emfield_compute: ******  Getting Seafloor and source/receiver positions *******
+   BottomWaterCells: Finding seabed in the model
+   BottomWaterCells: using conductivity threshold:   3.200000    
+   BottomWaterCells: using conductivity jump:  9.9999998E-03
+   Average Bottom Water Cell index =           34
+   Getting number of sorces and receivers from acquistion file: SEAMacqui
+   SEAMacqui succesfully scanned.
+   Number of lines :        5632
+   Number of traces:        5616
+   Total number of source    :          16
+   Total number of receivers :         351
+   Getting positions of sorces and receivers from acquistion file: SEAMacqui
+ 
+   Source: Minmum and maximum relative positions 
+   Source: x max/min =>       43000.00       13000.00    
+   Source: y max/min =>      0.0000000E+00  0.0000000E+00
+   Source: z max/min =>       30.00000       30.00000    
+   Source: Wd max/min =>     0.0000000E+00  0.0000000E+00
+   Source: Azim max/min =>   0.0000000E+00  0.0000000E+00
+   Source: tilt max/min =>   0.0000000E+00  0.0000000E+00
+   Sor: nofsor max/min  =>           16          16
+ 
+   Receiver: Minmum and maximum relative positions 
+   Receiver: x max/min =>    45000.00       10000.00    
+   Receiver: y max/min =>   0.0000000E+00  0.0000000E+00
+   Receiver: z max/min =>   0.0000000E+00  0.0000000E+00
+   Receiver: Wd max/min =>     0.0000000E+00  0.0000000E+00
+   Receiver: Azim max/min =>   0.0000000E+00  0.0000000E+00
+   Receiver: tilt max/min =>   0.0000000E+00  0.0000000E+00
+ 
+   em25d: Checking if source positions are within model.
+   em25d: Yes All source positions are within model!
+   em25d: Checking if receiver positions are within model.
+   em25d: Yes All receiver positions are within model!
+   waterdepth_SorRec: Getting water depth at source
+   waterdepth_SorRec: wd is computed from model seafloor.
+   waterdepth_SorRec: Getting water depth at receiver
+   waterdepth_SorRec: wd is computed from model seafloor.
+   waterdepth_SorRec: Getting water depth at source
+   waterdepth_SorRec: wd is computed from model seafloor.
+   waterdepth_SorRec: Getting water depth at source
+   waterdepth_SorRec: wd is computed from model seafloor.
+   waterdepth_SorRec: Getting water depth at receiver
+   waterdepth_SorRec: wd is computed from model seafloor.
+   Average water depth:    51395.38    
+   SorRec_abs_z: Getting absoulute depth of Source
+   Source: z max/min =>    51670.00       50970.00    
+   waterdepth_SorRec: Getting water depth at source
+   waterdepth_SorRec: wd is computed from model seafloor.
+   waterdepth_SorRec: Getting water depth at receiver
+   waterdepth_SorRec: wd is computed from model seafloor.
+   waterdepth_SorRec: Getting water depth at receiver
+   waterdepth_SorRec: wd is computed from model seafloor.
+   waterdepth_SorRec: Getting water depth at source
+   waterdepth_SorRec: wd is computed from model seafloor.
+   waterdepth_SorRec: Getting water depth at receiver
+   waterdepth_SorRec: wd is computed from model seafloor.
+   SorRec_abs_z: Getting absoulute depth of Receiver
+   Receiver: z max/min =>    51700.00       50800.00    
+   waterdepth_SorRec: Getting water depth at source
+   waterdepth_SorRec: wd is computed from model seafloor.
+   waterdepth_SorRec: Getting water depth at receiver
+   waterdepth_SorRec: wd is computed from model seafloor.
+   waterdepth_SorRec: Getting water depth at source
+   waterdepth_SorRec: wd is computed from model seafloor.
+   waterdepth_SorRec: Getting water depth at receiver
+   waterdepth_SorRec: wd is computed from model seafloor.
+   waterdepth_SorRec: Getting water depth at source
+   waterdepth_SorRec: wd is computed from model seafloor.
+   waterdepth_SorRec: Getting water depth at receiver
+   waterdepth_SorRec: wd is computed from model seafloor.
+   waterdepth_SorRec: Getting water depth at source
+   waterdepth_SorRec: wd is computed from model seafloor.
+   waterdepth_SorRec: Getting water depth at receiver
+   waterdepth_SorRec: wd is computed from model seafloor.
+   waterdepth_SorRec: Getting water depth at source
+   waterdepth_SorRec: wd is computed from model seafloor.
+   waterdepth_SorRec: Getting water depth at receiver
+   waterdepth_SorRec: wd is computed from model seafloor.
+   waterdepth_SorRec: Getting water depth at source
+   waterdepth_SorRec: wd is computed from model seafloor.
+   waterdepth_SorRec: Getting water depth at receiver
+   waterdepth_SorRec: wd is computed from model seafloor.
+   waterdepth_SorRec: Getting water depth at source
+   waterdepth_SorRec: wd is computed from model seafloor.
+   waterdepth_SorRec: Getting water depth at receiver
+   waterdepth_SorRec: wd is computed from model seafloor.
+   waterdepth_SorRec: Getting water depth at source
+   waterdepth_SorRec: wd is computed from model seafloor.
+   waterdepth_SorRec: Getting water depth at receiver
+   waterdepth_SorRec: wd is computed from model seafloor.
+   waterdepth_SorRec: Getting water depth at source
+   waterdepth_SorRec: wd is computed from model seafloor.
+   waterdepth_SorRec: Getting water depth at receiver
+   waterdepth_SorRec: wd is computed from model seafloor.
+   waterdepth_SorRec: Getting water depth at source
+   waterdepth_SorRec: wd is computed from model seafloor.
+   waterdepth_SorRec: Getting water depth at receiver
+   waterdepth_SorRec: wd is computed from model seafloor.
+   waterdepth_SorRec: Getting water depth at source
+   waterdepth_SorRec: wd is computed from model seafloor.
+   waterdepth_SorRec: Getting water depth at receiver
+   waterdepth_SorRec: wd is computed from model seafloor.
+   waterdepth_SorRec: Getting water depth at source
+   waterdepth_SorRec: wd is computed from model seafloor.
+   waterdepth_SorRec: Getting water depth at receiver
+   waterdepth_SorRec: wd is computed from model seafloor.
+   waterdepth_SorRec: Getting water depth at source
+   waterdepth_SorRec: wd is computed from model seafloor.
+   waterdepth_SorRec: Getting water depth at receiver
+   waterdepth_SorRec: wd is computed from model seafloor.
+   waterdepth_SorRec: Getting water depth at source
+   waterdepth_SorRec: wd is computed from model seafloor.
+   waterdepth_SorRec: Getting water depth at receiver
+   waterdepth_SorRec: wd is computed from model seafloor.
+   waterdepth_SorRec: Getting water depth at source
+   waterdepth_SorRec: wd is computed from model seafloor.
+   waterdepth_SorRec: Getting water depth at receiver
+   waterdepth_SorRec: wd is computed from model seafloor.
+   SorRec_abs_z: Getting absoulute depth of Source
+   SorRec_abs_z: Getting absoulute depth of Source
+   SorRec_abs_z: Getting absoulute depth of Source
+   SorRec_abs_z: Getting absoulute depth of Source
+   SorRec_abs_z: Getting absoulute depth of Source
+   SorRec_abs_z: Getting absoulute depth of Source
+   SorRec_abs_z: Getting absoulute depth of Source
+   Source: z max/min =>    51670.00       50970.00    
+   SorRec_abs_z: Getting absoulute depth of Receiver
+   Source: z max/min =>    51670.00       50970.00    
+   SorRec_abs_z: Getting absoulute depth of Receiver
+   Receiver: z max/min =>    51700.00       50800.00    
+   SorRec_abs_z: Getting absoulute depth of Source
+   SorRec_abs_z: Getting absoulute depth of Source
+   Source: z max/min =>    51670.00       50970.00    
+   Source: z max/min =>    51670.00       50970.00    
+   SorRec_abs_z: Getting absoulute depth of Receiver
+   Receiver: z max/min =>    51700.00       50800.00    
+   Source: z max/min =>    51670.00       50970.00    
+   SorRec_abs_z: Getting absoulute depth of Receiver
+   Receiver: z max/min =>    51700.00       50800.00    
+   SorRec_abs_z: Getting absoulute depth of Source
+   Source: z max/min =>    51670.00       50970.00    
+   SorRec_abs_z: Getting absoulute depth of Receiver
+   Receiver: z max/min =>    51700.00       50800.00    
+   Source: z max/min =>    51670.00       50970.00    
+   SorRec_abs_z: Getting absoulute depth of Receiver
+   Receiver: z max/min =>    51700.00       50800.00    
+   SorRec_abs_z: Getting absoulute depth of Source
+   Source: z max/min =>    51670.00       50970.00    
+   SorRec_abs_z: Getting absoulute depth of Receiver
+   Receiver: z max/min =>    51700.00       50800.00    
+   SorRec_abs_z: Getting absoulute depth of Source
+   Source: z max/min =>    51670.00       50970.00    
+   SorRec_abs_z: Getting absoulute depth of Receiver
+   Receiver: z max/min =>    51700.00       50800.00    
+   SorRec_abs_z: Getting absoulute depth of Source
+   Source: z max/min =>    51670.00       50970.00    
+   SorRec_abs_z: Getting absoulute depth of Receiver
+   Receiver: z max/min =>    51700.00       50800.00    
+   Source: z max/min =>    51670.00       50970.00    
+   SorRec_abs_z: Getting absoulute depth of Receiver
+   Receiver: z max/min =>    51700.00       50800.00    
+   Source: z max/min =>    51670.00       50970.00    
+   SorRec_abs_z: Getting absoulute depth of Receiver
+   Receiver: z max/min =>    51700.00       50800.00    
+   Receiver: z max/min =>    51700.00       50800.00    
+   Source: z max/min =>    51670.00       50970.00    
+   SorRec_abs_z: Getting absoulute depth of Receiver
+   Receiver: z max/min =>    51700.00       50800.00    
+   SorRec_abs_z: Getting absoulute depth of Receiver
+   Receiver: z max/min =>    51700.00       50800.00    
+   SorRec_abs_z: Getting absoulute depth of Source
+   Source: z max/min =>    51670.00       50970.00    
+   SorRec_abs_z: Getting absoulute depth of Receiver
+   Receiver: z max/min =>    51700.00       50800.00    
+   SorRec_abs_z: Getting absoulute depth of Source
+   Source: z max/min =>    51670.00       50970.00    
+   SorRec_abs_z: Getting absoulute depth of Receiver
+   Receiver: z max/min =>    51700.00       50800.00    
+   SorRec_abs_z: Getting absoulute depth of Source
+   Source: z max/min =>    51670.00       50970.00    
+   SorRec_abs_z: Getting absoulute depth of Receiver
+   Receiver: z max/min =>    51700.00       50800.00    
+   SorRec_abs_z: Getting absoulute depth of Source
+   Source: z max/min =>    51670.00       50970.00    
+   SorRec_abs_z: Getting absoulute depth of Receiver
+   Receiver: z max/min =>    51700.00       50800.00    
+   SorRec_abs_z: Getting absoulute depth of Source
+   Source: z max/min =>    51670.00       50970.00    
+   SorRec_abs_z: Getting absoulute depth of Receiver
+   Receiver: z max/min =>    51700.00       50800.00    
+   SorRec_abs_z: Getting absoulute depth of Source
+   Source: z max/min =>    51670.00       50970.00    
+   SorRec_abs_z: Getting absoulute depth of Receiver
+   Receiver: z max/min =>    51700.00       50800.00    
+ 
+ emfield_compute: ********* Getting averaged conductivity at FD nodes **********
+   SorRecConductivity: Getting conductivities at Source
+   SorRecConductivity: and corresponding seawater and seafloor.
+   SorRecConductivity: Getting conductivities at Receiver
+   SorRecConductivity: and corresponding seawater and seafloor.
+   SorRecConductivity: Getting conductivities at Source
+   SorRecConductivity: and corresponding seawater and seafloor.
+   SorRecConductivity: Getting conductivities at Receiver
+   SorRecConductivity: and corresponding seawater and seafloor.
+   SorRecConductivity: Getting conductivities at Source
+   SorRecConductivity: and corresponding seawater and seafloor.
+   SorRecConductivity: Getting conductivities at Receiver
+   SorRecConductivity: and corresponding seawater and seafloor.
+   SorRecConductivity: Getting conductivities at Source
+   SorRecConductivity: and corresponding seawater and seafloor.
+   SorRecConductivity: Getting conductivities at Receiver
+   SorRecConductivity: and corresponding seawater and seafloor.
+   SorRecConductivity: Getting conductivities at Source
+   SorRecConductivity: and corresponding seawater and seafloor.
+   SorRecConductivity: Getting conductivities at Receiver
+   SorRecConductivity: and corresponding seawater and seafloor.
+   SorRecConductivity: Getting conductivities at Source
+   SorRecConductivity: and corresponding seawater and seafloor.
+   SorRecConductivity: Getting conductivities at Receiver
+   SorRecConductivity: and corresponding seawater and seafloor.
+   SorRecConductivity: Getting conductivities at Source
+   SorRecConductivity: and corresponding seawater and seafloor.
+   SorRecConductivity: Getting conductivities at Receiver
+   SorRecConductivity: and corresponding seawater and seafloor.
+   SorRecConductivity: Getting conductivities at Source
+   SorRecConductivity: and corresponding seawater and seafloor.
+   SorRecConductivity: Getting conductivities at Receiver
+   SorRecConductivity: and corresponding seawater and seafloor.
+   SorRecConductivity: Getting conductivities at Source
+   SorRecConductivity: and corresponding seawater and seafloor.
+   SorRecConductivity: Getting conductivities at Receiver
+   SorRecConductivity: and corresponding seawater and seafloor.
+   SorRecConductivity: Getting conductivities at Source
+   SorRecConductivity: and corresponding seawater and seafloor.
+   SorRecConductivity: Getting conductivities at Receiver
+   SorRecConductivity: and corresponding seawater and seafloor.
+   SorRecConductivity: Getting conductivities at Source
+   SorRecConductivity: and corresponding seawater and seafloor.
+   SorRecConductivity: Getting conductivities at Receiver
+   SorRecConductivity: and corresponding seawater and seafloor.
+   SorRecConductivity: Getting conductivities at Source
+   SorRecConductivity: and corresponding seawater and seafloor.
+   SorRecConductivity: Getting conductivities at Receiver
+   SorRecConductivity: and corresponding seawater and seafloor.
+   SorRecConductivity: Getting conductivities at Source
+   SorRecConductivity: and corresponding seawater and seafloor.
+   SorRecConductivity: Getting conductivities at Receiver
+   SorRecConductivity: and corresponding seawater and seafloor.
+   SorRecConductivity: Getting conductivities at Source
+   SorRecConductivity: and corresponding seawater and seafloor.
+   SorRecConductivity: Getting conductivities at Receiver
+   SorRecConductivity: and corresponding seawater and seafloor.
+   SorRecConductivity: Getting conductivities at Source
+   SorRecConductivity: and corresponding seawater and seafloor.
+   SorRecConductivity: Getting conductivities at Receiver
+   SorRecConductivity: and corresponding seawater and seafloor.
+   SorRecConductivity: Getting conductivities at Source
+   SorRecConductivity: and corresponding seawater and seafloor.
+   SorRecConductivity: Getting conductivities at Receiver
+   SorRecConductivity: and corresponding seawater and seafloor.
+   SorRecConductivity: Getting conductivities at Source
+   SorRecConductivity: and corresponding seawater and seafloor.
+   SorRecConductivity: Getting conductivities at Receiver
+   SorRecConductivity: and corresponding seawater and seafloor.
+           ***** Starting subroutine averageCond_model: *****
+ averageCond_model: the input conductivity model is isotropic.
+           ***** computing averaged model conductivity: *****
+           ***** Starting subroutine averageCond_model: *****
+ averageCond_model: the input conductivity model is isotropic.
+           ***** computing averaged model conductivity: *****
+           ***** Starting subroutine averageCond_model: *****
+ averageCond_model: the input conductivity model is isotropic.
+           ***** computing averaged model conductivity: *****
+           ***** Starting subroutine averageCond_model: *****
+ averageCond_model: the input conductivity model is isotropic.
+           ***** computing averaged model conductivity: *****
+           ***** Starting subroutine averageCond_model: *****
+ averageCond_model: the input conductivity model is isotropic.
+           ***** computing averaged model conductivity: *****
+           ***** Starting subroutine averageCond_model: *****
+ averageCond_model: the input conductivity model is isotropic.
+           ***** computing averaged model conductivity: *****
+           ***** Starting subroutine averageCond_model: *****
+ averageCond_model: the input conductivity model is isotropic.
+           ***** computing averaged model conductivity: *****
+   SorRecConductivity: Getting conductivities at Source
+   SorRecConductivity: and corresponding seawater and seafloor.
+   SorRecConductivity: Getting conductivities at Receiver
+   SorRecConductivity: and corresponding seawater and seafloor.
+           ***** Starting subroutine averageCond_model: *****
+ averageCond_model: the input conductivity model is isotropic.
+           ***** computing averaged model conductivity: *****
+           ***** Starting subroutine averageCond_model: *****
+ averageCond_model: the input conductivity model is isotropic.
+           ***** computing averaged model conductivity: *****
+           ***** Starting subroutine averageCond_model: *****
+ averageCond_model: the input conductivity model is isotropic.
+           ***** computing averaged model conductivity: *****
+           ***** Starting subroutine averageCond_model: *****
+ averageCond_model: the input conductivity model is isotropic.
+           ***** computing averaged model conductivity: *****
+           ***** Starting subroutine averageCond_model: *****
+ averageCond_model: the input conductivity model is isotropic.
+           ***** computing averaged model conductivity: *****
+   SorRecConductivity: Getting conductivities at Source
+   SorRecConductivity: and corresponding seawater and seafloor.
+   SorRecConductivity: Getting conductivities at Receiver
+   SorRecConductivity: and corresponding seawater and seafloor.
+   SorRecConductivity: Getting conductivities at Source
+   SorRecConductivity: and corresponding seawater and seafloor.
+   SorRecConductivity: Getting conductivities at Receiver
+   SorRecConductivity: and corresponding seawater and seafloor.
+           ***** Starting subroutine averageCond_model: *****
+ averageCond_model: the input conductivity model is isotropic.
+           ***** computing averaged model conductivity: *****
+           ***** Starting subroutine averageCond_model: *****
+ averageCond_model: the input conductivity model is isotropic.
+           ***** computing averaged model conductivity: *****
+           ***** Starting subroutine averageCond_model: *****
+ averageCond_model: the input conductivity model is isotropic.
+           ***** computing averaged model conductivity: *****
+           ***** Starting subroutine averageCond_model: *****
+ averageCond_model: the input conductivity model is isotropic.
+           ***** computing averaged model conductivity: *****
+           ***** Starting subroutine averageCond_model: *****
+ averageCond_model: the input conductivity model is isotropic.
+           ***** computing averaged model conductivity: *****
+           ***** Starting subroutine averageCond_model: *****
+ averageCond_model: the input conductivity model is isotropic.
+           ***** computing averaged model conductivity: *****
+           ***** Starting subroutine averageCond_model: *****
+ averageCond_model: the input conductivity model is isotropic.
+           ***** computing averaged model conductivity: *****
+           ***** Starting subroutine averageCond_model: *****
+ averageCond_model: the input conductivity model is isotropic.
+           ***** computing averaged model conductivity: *****
+   averageCond_model: Min/Max cond_xx for Ex sub-grid:  9.9999988E-06
+   3.330000    
+   averageCond_model: Min/Max cond_yy for Ey sub-grid:  9.9999979E-06
+   3.330000    
+   averageCond_model: Min/Max cond_zz for Ez sub-grid:  9.9999979E-06
+   3.330000    
+   averageCond_model: Overall min/max cond:   9.9999979E-06   3.330000    
+   *** Subroutine averageCond_model finished ***
+   averageCond_model: Min/Max cond_xx for Ex sub-grid:  9.9999988E-06
+   3.330000    
+   averageCond_model: Min/Max cond_yy for Ey sub-grid:  9.9999979E-06
+   3.330000    
+   averageCond_model: Min/Max cond_zz for Ez sub-grid:  9.9999979E-06
+   3.330000    
+   averageCond_model: Overall min/max cond:   9.9999979E-06   3.330000    
+   *** Subroutine averageCond_model finished ***
+   averageCond_model: Min/Max cond_xx for Ex sub-grid:  9.9999988E-06
+   3.330000    
+   averageCond_model: Min/Max cond_yy for Ey sub-grid:  9.9999979E-06
+   3.330000    
+   averageCond_model: Min/Max cond_zz for Ez sub-grid:  9.9999979E-06
+   3.330000    
+   averageCond_model: Overall min/max cond:   9.9999979E-06   3.330000    
+   *** Subroutine averageCond_model finished ***
+   averageCond_model: Min/Max cond_xx for Ex sub-grid:  9.9999988E-06
+   3.330000    
+   averageCond_model: Min/Max cond_yy for Ey sub-grid:  9.9999979E-06
+   3.330000    
+   averageCond_model: Min/Max cond_zz for Ez sub-grid:  9.9999979E-06
+   3.330000    
+   averageCond_model: Overall min/max cond:   9.9999979E-06   3.330000    
+   *** Subroutine averageCond_model finished ***
+   averageCond_model: Min/Max cond_xx for Ex sub-grid:  9.9999988E-06
+   3.330000    
+   averageCond_model: Min/Max cond_yy for Ey sub-grid:  9.9999979E-06
+   3.330000    
+   averageCond_model: Min/Max cond_zz for Ez sub-grid:  9.9999979E-06
+   3.330000    
+   averageCond_model: Overall min/max cond:   9.9999979E-06   3.330000    
+   *** Subroutine averageCond_model finished ***
+ generate_Biline_operator for sources (sorBiline): Start
+   Biline_NU: computing positioning operators for sor
+   averageCond_model: Min/Max cond_xx for Ex sub-grid:  9.9999988E-06
+   3.330000    
+   averageCond_model: Min/Max cond_yy for Ey sub-grid:  9.9999979E-06
+   3.330000    
+   averageCond_model: Min/Max cond_zz for Ez sub-grid:  9.9999979E-06
+ generate_Biline_operator for sources (sorBiline): Start
+   Biline_NU: computing positioning operators for sor
+   3.330000    
+   averageCond_model: Overall min/max cond:   9.9999979E-06   3.330000    
+   *** Subroutine averageCond_model finished ***
+ generate_Biline_operator for sources (sorBiline): Start
+   Biline_NU: computing positioning operators for sor
+   averageCond_model: Min/Max cond_xx for Ex sub-grid:  9.9999988E-06
+   3.330000    
+   averageCond_model: Min/Max cond_yy for Ey sub-grid:  9.9999979E-06
+   3.330000    
+   averageCond_model: Min/Max cond_zz for Ez sub-grid:  9.9999979E-06
+   3.330000    
+   averageCond_model: Overall min/max cond:   9.9999979E-06   3.330000    
+   *** Subroutine averageCond_model finished ***
+ generate_Biline_operator for sources (sorBiline): Start
+   Biline_NU: computing positioning operators for sor
+ generate_Biline_operator for sources (sorBiline): Start
+   Biline_NU: computing positioning operators for sor
+ generate_Biline_operator for sources (sorBiline): Start
+   Biline_NU: computing positioning operators for sor
+ generate_Biline_operator for sources (sorBiline): Finished
+ generate_Biline_operator for receivers (recBiline): Start
+   Biline_NU: computing positioning operators for rec
+ generate_Biline_operator for sources (sorBiline): Finished
+ generate_Biline_operator for receivers (recBiline): Start
+   Biline_NU: computing positioning operators for rec
+ generate_Biline_operator for sources (sorBiline): Finished
+ generate_Biline_operator for receivers (recBiline): Start
+   Biline_NU: computing positioning operators for rec
+ generate_Biline_operator for sources (sorBiline): Start
+   Biline_NU: computing positioning operators for sor
+ generate_Biline_operator for sources (sorBiline): Finished
+ generate_Biline_operator for receivers (recBiline): Start
+   Biline_NU: computing positioning operators for rec
+ generate_Biline_operator for sources (sorBiline): Finished
+ generate_Biline_operator for receivers (recBiline): Start
+   Biline_NU: computing positioning operators for rec
+ generate_Biline_operator for sources (sorBiline): Finished
+ generate_Biline_operator for receivers (recBiline): Start
+   Biline_NU: computing positioning operators for rec
+ generate_Biline_operator for sources (sorBiline): Finished
+ generate_Biline_operator for receivers (recBiline): Start
+   Biline_NU: computing positioning operators for rec
+   averageCond_model: Min/Max cond_xx for Ex sub-grid:  9.9999988E-06
+   3.330000    
+   averageCond_model: Min/Max cond_yy for Ey sub-grid:  9.9999979E-06
+   3.330000    
+   averageCond_model: Min/Max cond_zz for Ez sub-grid:  9.9999979E-06
+   3.330000    
+   averageCond_model: Overall min/max cond:   9.9999979E-06   3.330000    
+   *** Subroutine averageCond_model finished ***
+   averageCond_model: Min/Max cond_xx for Ex sub-grid:  9.9999988E-06
+   3.330000    
+   averageCond_model: Min/Max cond_yy for Ey sub-grid:  9.9999979E-06
+   3.330000    
+   averageCond_model: Min/Max cond_zz for Ez sub-grid:  9.9999979E-06
+   3.330000    
+   averageCond_model: Overall min/max cond:   9.9999979E-06   3.330000    
+   *** Subroutine averageCond_model finished ***
+   averageCond_model: Min/Max cond_xx for Ex sub-grid:  9.9999988E-06
+   3.330000    
+   averageCond_model: Min/Max cond_yy for Ey sub-grid:  9.9999979E-06
+   3.330000    
+   averageCond_model: Min/Max cond_zz for Ez sub-grid:  9.9999979E-06
+   3.330000    
+   averageCond_model: Overall min/max cond:   9.9999979E-06   3.330000    
+   *** Subroutine averageCond_model finished ***
+   averageCond_model: Min/Max cond_xx for Ex sub-grid:  9.9999988E-06
+   3.330000    
+   averageCond_model: Min/Max cond_yy for Ey sub-grid:  9.9999979E-06
+   3.330000    
+   averageCond_model: Min/Max cond_zz for Ez sub-grid:  9.9999979E-06
+   3.330000    
+   averageCond_model: Overall min/max cond:   9.9999979E-06   3.330000    
+   *** Subroutine averageCond_model finished ***
+   averageCond_model: Min/Max cond_xx for Ex sub-grid:  9.9999988E-06
+   3.330000    
+   averageCond_model: Min/Max cond_yy for Ey sub-grid:  9.9999979E-06
+   3.330000    
+   averageCond_model: Min/Max cond_zz for Ez sub-grid:  9.9999979E-06
+   3.330000    
+   averageCond_model: Overall min/max cond:   9.9999979E-06   3.330000    
+   *** Subroutine averageCond_model finished ***
+   averageCond_model: Min/Max cond_xx for Ex sub-grid:  9.9999988E-06
+   3.330000    
+   averageCond_model: Min/Max cond_yy for Ey sub-grid:  9.9999979E-06
+   3.330000    
+   averageCond_model: Min/Max cond_zz for Ez sub-grid:  9.9999979E-06
+   3.330000    
+   averageCond_model: Overall min/max cond:   9.9999979E-06   3.330000    
+   *** Subroutine averageCond_model finished ***
+ generate_Biline_operator for sources (sorBiline): Start
+   Biline_NU: computing positioning operators for sor
+ generate_Biline_operator for sources (sorBiline): Start
+   Biline_NU: computing positioning operators for sor
+ generate_Biline_operator for sources (sorBiline): Start
+   Biline_NU: computing positioning operators for sor
+ generate_Biline_operator for sources (sorBiline): Start
+   Biline_NU: computing positioning operators for sor
+ generate_Biline_operator for sources (sorBiline): Start
+   Biline_NU: computing positioning operators for sor
+   averageCond_model: Min/Max cond_xx for Ex sub-grid:  9.9999988E-06
+   3.330000    
+   averageCond_model: Min/Max cond_yy for Ey sub-grid:  9.9999979E-06
+   3.330000    
+   averageCond_model: Min/Max cond_zz for Ez sub-grid:  9.9999979E-06
+   3.330000    
+   averageCond_model: Overall min/max cond:   9.9999979E-06   3.330000    
+   *** Subroutine averageCond_model finished ***
+ generate_Biline_operator for sources (sorBiline): Start
+   Biline_NU: computing positioning operators for sor
+   averageCond_model: Min/Max cond_xx for Ex sub-grid:  9.9999988E-06
+   3.330000    
+   averageCond_model: Min/Max cond_yy for Ey sub-grid:  9.9999979E-06
+   3.330000    
+   averageCond_model: Min/Max cond_zz for Ez sub-grid:  9.9999979E-06
+   3.330000    
+   averageCond_model: Overall min/max cond:   9.9999979E-06   3.330000    
+   *** Subroutine averageCond_model finished ***
+ generate_Biline_operator for sources (sorBiline): Finished
+ generate_Biline_operator for receivers (recBiline): Start
+   Biline_NU: computing positioning operators for rec
+ generate_Biline_operator for sources (sorBiline): Finished
+ generate_Biline_operator for receivers (recBiline): Start
+   Biline_NU: computing positioning operators for rec
+ generate_Biline_operator for sources (sorBiline): Finished
+ generate_Biline_operator for receivers (recBiline): Start
+   Biline_NU: computing positioning operators for rec
+ generate_Biline_operator for sources (sorBiline): Finished
+ generate_Biline_operator for receivers (recBiline): Start
+   Biline_NU: computing positioning operators for rec
+ generate_Biline_operator for sources (sorBiline): Finished
+ generate_Biline_operator for receivers (recBiline): Start
+   Biline_NU: computing positioning operators for rec
+ generate_Biline_operator for sources (sorBiline): Start
+   Biline_NU: computing positioning operators for sor
+ generate_Biline_operator for sources (sorBiline): Finished
+ generate_Biline_operator for receivers (recBiline): Start
+   Biline_NU: computing positioning operators for rec
+ generate_Biline_operator for sources (sorBiline): Start
+   Biline_NU: computing positioning operators for sor
+   averageCond_model: Min/Max cond_xx for Ex sub-grid:  9.9999988E-06
+   3.330000    
+   averageCond_model: Min/Max cond_yy for Ey sub-grid:  9.9999979E-06
+   3.330000    
+   averageCond_model: Min/Max cond_zz for Ez sub-grid:  9.9999979E-06
+   3.330000    
+   averageCond_model: Overall min/max cond:   9.9999979E-06   3.330000    
+   *** Subroutine averageCond_model finished ***
+   averageCond_model: Min/Max cond_xx for Ex sub-grid:  9.9999988E-06
+   3.330000    
+   averageCond_model: Min/Max cond_yy for Ey sub-grid:  9.9999979E-06
+   3.330000    
+   averageCond_model: Min/Max cond_zz for Ez sub-grid:  9.9999979E-06
+   3.330000    
+   averageCond_model: Overall min/max cond:   9.9999979E-06   3.330000    
+   *** Subroutine averageCond_model finished ***
+ generate_Biline_operator for sources (sorBiline): Finished
+ generate_Biline_operator for receivers (recBiline): Start
+   Biline_NU: computing positioning operators for rec
+ generate_Biline_operator for sources (sorBiline): Finished
+ generate_Biline_operator for receivers (recBiline): Start
+   Biline_NU: computing positioning operators for rec
+ generate_Biline_operator for sources (sorBiline): Start
+   Biline_NU: computing positioning operators for sor
+ generate_Biline_operator for sources (sorBiline): Start
+   Biline_NU: computing positioning operators for sor
+ generate_Biline_operator for sources (sorBiline): Finished
+ generate_Biline_operator for receivers (recBiline): Start
+   Biline_NU: computing positioning operators for rec
+ generate_Biline_operator for sources (sorBiline): Finished
+ generate_Biline_operator for receivers (recBiline): Start
+   Biline_NU: computing positioning operators for rec
+   averageCond_model: Min/Max cond_xx for Ex sub-grid:  9.9999988E-06
+   3.330000    
+   averageCond_model: Min/Max cond_yy for Ey sub-grid:  9.9999979E-06
+   3.330000    
+   averageCond_model: Min/Max cond_zz for Ez sub-grid:  9.9999979E-06
+   3.330000    
+   averageCond_model: Overall min/max cond:   9.9999979E-06   3.330000    
+   *** Subroutine averageCond_model finished ***
+ 
+ generate_Biline_operator for receivers (recBiline): Finished
+ generate_Biline_operator for receivers (recBiline): Finished
+ generate_Biline_operator for receivers (recBiline): Finished
+ generate_Biline_operator for receivers (recBiline): Finished
+ generate_Biline_operator for receivers (recBiline): Finished
+ generate_Biline_operator for sources (sorBiline): Start
+   Biline_NU: computing positioning operators for sor
+ generate_Biline_operator for receivers (recBiline): Finished
+ generate_Biline_operator for receivers (recBiline): Finished
+ generate_Biline_operator for sources (sorBiline): Finished
+ generate_Biline_operator for receivers (recBiline): Start
+   Biline_NU: computing positioning operators for rec
+   averageCond_model: Min/Max cond_xx for Ex sub-grid:  9.9999988E-06
+   3.330000    
+   averageCond_model: Min/Max cond_yy for Ey sub-grid:  9.9999979E-06
+   3.330000    
+   averageCond_model: Min/Max cond_zz for Ez sub-grid:  9.9999979E-06
+   3.330000    
+   averageCond_model: Overall min/max cond:   9.9999979E-06   3.330000    
+   *** Subroutine averageCond_model finished ***
+ generate_Biline_operator for sources (sorBiline): Start
+   Biline_NU: computing positioning operators for sor
+ generate_Biline_operator for sources (sorBiline): Finished
+ generate_Biline_operator for receivers (recBiline): Start
+   Biline_NU: computing positioning operators for rec
+ generate_Biline_operator for receivers (recBiline): Finished
+ generate_Biline_operator for receivers (recBiline): Finished
+ generate_Biline_operator for receivers (recBiline): Finished
+ generate_Biline_operator for receivers (recBiline): Finished
+ generate_Biline_operator for receivers (recBiline): Finished
+ generate_Biline_operator for receivers (recBiline): Finished
+ generate_Biline_operator for receivers (recBiline): Finished
+ generate_Biline_operator for receivers (recBiline): Finished
+ generate_Biline_operator for receivers (recBiline): Finished
+ generate_Biline_operator for receivers (recBiline): Finished
+   averageCond_model: Min/Max cond_xx for Ex sub-grid:  9.9999988E-06
+   3.330000    
+   averageCond_model: Min/Max cond_yy for Ey sub-grid:  9.9999979E-06
+   3.330000    
+   averageCond_model: Min/Max cond_zz for Ez sub-grid:  9.9999979E-06
+   3.330000    
+   averageCond_model: Overall min/max cond:   9.9999979E-06   3.330000    
+   *** Subroutine averageCond_model finished ***
+ generate_Biline_operator for receivers (recBiline): Finished
+ generate_Biline_operator for sources (sorBiline): Start
+   Biline_NU: computing positioning operators for sor
+ generate_Biline_operator for sources (sorBiline): Finished
+ generate_Biline_operator for receivers (recBiline): Start
+   Biline_NU: computing positioning operators for rec
+ generate_Biline_operator for receivers (recBiline): Finished
+ emfield_compute: calling generate_ky
+ emfield_compute: calling generate_jky
+ emfield_compute: calling generate_FT_coeff
+ generate_Biline_operator for receivers (recBiline): Finished
+ GN_forwardCost:==============================================================
+ GN_forwardCost:<<<<<<<----------- Running Forward modeling ----------->>>>>>>
+ GN_forwardCost:==============================================================
+ ============================================================================
+ ================ * GN_fd_solution parallel: Routine start * ================
+ ============================================================================
+ Number of receivers - nofrec:         351
+ Number of sources   - nofsor:          16
+ Model dimensions - nx, nz & n:         196          71       41748
+ GN_fd_solution: ************** Electric Field ***************
+ GN_fd_solution: jx =    1.000000    
+ GN_fd_solution: jz =   0.0000000E+00
+  ****  Running source-Modeling to get fields at rec *****
+ GN_fd_solution: create RHS at sources only 
+ GN_fd_solution: for frquency and ky:  0.1000000      1.5707955E-02
+  ****  Running source-Modeling to get fields at rec *****
+ GN_fd_solution: create RHS at sources only 
+ GN_fd_solution: for frquency and ky:  0.2000000      1.5707955E-02
+  ****  Running source-Modeling to get fields at rec *****
+ GN_fd_solution: create RHS at sources only 
+ GN_fd_solution: for frquency and ky:  0.4000000      1.5707955E-02
+ GN_fd_solution: Modeling number           1
+ GN_fd_solution: Forward modeling time:   2.739258     seconds
+ GN_fd_solution: Forward modeling time:  4.5654297E-02 minutes
+ GN_forwardCost:==============================================================
+ GN_forwardCost:<<<<<<<------------ Writing cost function ------------->>>>>>>
+ GN_forwardCost:==============================================================
+ GN_forwardCost: fcost=   5.223184180524623E-002

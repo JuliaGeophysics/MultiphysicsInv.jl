@@ -1,0 +1,1604 @@
+Launching MPI
+ Graphing Grid size:          176           1          41
+Ray branches:   1  1
+
+Input velocity (vm) model: inversion1_SE/SE01_voro_300pts_1_3000.vm
+ Dimensions:          176           1          41
+ Spacing:   0.200000003       0.00000000      0.100000001    
+ Model     top-left:    0.000   0.000   0.000
+ Model bottom-right:   35.000   0.000   4.000
+ Calling raytr_control 
+Control inst_id size   34
+
+Forward star  9  0  9
+Min angle between directions (deg) 1.00
+Initial forward star:   57 of  100 (  57%) active nodes
+After pruning for similar directions (angles sep<  1.0 deg)    40 of  100 (  40%) active nodes
+Process  4 Tracing rays for source:  4 id #        4
+
+Process  6 Tracing rays for source:  6 id #        6
+
+Tracing rays for instrument:   6 id #     6
+Process  7 Tracing rays for source:  7 id #        7
+
+Tracing rays for instrument:   7 id #     7
+Process  2 Tracing rays for source:  2 id #        2
+
+Tracing rays for instrument:   2 id #     2
+Tracing rays for instrument:   4 id #     4
+Process  3 Tracing rays for source:  3 id #        3
+
+Process  5 Tracing rays for source:  5 id #        5
+
+Tracing rays for instrument:   5 id #     5
+Tracing rays for instrument:   3 id #     3
+Process 10 Tracing rays for source: 10 id #       10
+
+Tracing rays for instrument:  10 id #    10
+Process 11 Tracing rays for source: 11 id #       11
+
+Tracing rays for instrument:  11 id #    11
+Process 12 Tracing rays for source: 12 id #       12
+
+Tracing rays for instrument:  12 id #    12
+Process 13 Tracing rays for source: 13 id #       13
+
+Tracing rays for instrument:  13 id #    13
+Process  1 Tracing rays for source:  1 id #        1
+
+Tracing rays for instrument:   1 id #     1
+Instrument at (  33.000,   0.000,   1.544)
+Instrument in layer  1   0.000 km below interface  1 at    1.544
+Interpolated velocity at instrument:  1.483 km/s
+
+Instrument at (  31.000,   0.000,   1.577)
+Instrument in layer  1   0.000 km below interface  1 at    1.577
+Interpolated velocity at instrument:  1.638 km/s
+
+Instrument at (  30.000,   0.000,   1.606)
+Instrument in layer  0   0.000 km above interface  1 at    1.606
+Interpolated velocity at instrument:  1.620 km/s
+
+Instrument at (  29.000,   0.000,   1.606)
+Instrument in layer  0   0.000 km above interface  1 at    1.606
+Interpolated velocity at instrument:  1.739 km/s
+
+Instrument at (  28.000,   0.000,   1.590)
+Instrument in layer  0   0.000 km above interface  1 at    1.590
+Interpolated velocity at instrument:  1.434 km/s
+
+Process  8 Tracing rays for source:  8 id #        8
+
+Tracing rays for instrument:   8 id #     8
+Process  9 Tracing rays for source:  9 id #        9
+
+Tracing rays for instrument:   9 id #     9
+Instrument at (  26.000,   0.000,   1.544)
+Process 14 Tracing rays for source: 14 id #       14
+
+Tracing rays for instrument:  14 id #    14
+Instrument at (  21.000,   0.000,   0.975)
+Instrument in layer  0   0.000 km above interface  1 at    0.975
+Instrument at (  34.000,   0.000,   1.556)
+Instrument in layer  0   0.000 km above interface  1 at    1.556
+Interpolated velocity at instrument:  1.472 km/s
+
+Instrument at (  32.000,   0.000,   1.556)
+Instrument in layer  0   0.000 km above interface  1 at    1.556
+Interpolated velocity at instrument:  1.493 km/s
+
+Instrument at (  27.000,   0.000,   1.560)
+Instrument in layer  1   0.000 km below interface  1 at    1.560
+Interpolated velocity at instrument:  1.714 km/s
+
+Instrument in layer  0   0.000 km above interface  1 at    1.544
+Interpolated velocity at instrument:  1.547 km/s
+
+Instrument at (  25.000,   0.000,   1.482)
+Instrument in layer  1   0.000 km below interface  1 at    1.482
+Interpolated velocity at instrument:  1.717 km/s
+
+Instrument at (  24.000,   0.000,   1.347)
+Instrument in layer  0   0.000 km above interface  1 at    1.347
+Interpolated velocity at instrument:  1.564 km/s
+
+Instrument at (  23.000,   0.000,   1.053)
+Instrument in layer  0   0.000 km above interface  1 at    1.053
+Interpolated velocity at instrument:  2.010 km/s
+
+Instrument at (  22.000,   0.000,   0.785)
+Instrument in layer  0   0.000 km above interface  1 at    0.785
+Interpolated velocity at instrument:  1.620 km/s
+
+Interpolated velocity at instrument:  1.714 km/s
+
+ Number of shots        3302
+ Number of shots        3302
+ Number of shots        3302
+ Number of shots        3302
+ Number of shots        3302
+ Number of shots        3302
+ Number of shots        3302
+ Number of shots        3302
+ Number of shots        3302
+ Number of shots        3302
+ Number of shots        3302
+ Number of shots        3302
+ Number of shots        3302
+ Number of shots        3302
+ Number of ray paths         627
+ Number of multibranch picks:            0
+Read Picks Time =  0.046 seconds.
+
+ Restricting ray coverage for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+ Number of ray paths         635
+ Number of multibranch picks:            0
+ Number of ray paths         619
+ Number of multibranch picks:            0
+Read Picks Time =  0.046 seconds.
+ Number of ray paths         625
+ Number of multibranch picks:            0
+Read Picks Time =  0.046 seconds.
+Read Picks Time =  0.046 seconds.
+
+ Restricting ray coverage for interface  1
+
+ Restricting ray coverage for interface  1
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size          184
+ Call loop star for source
+
+ Restricting ray coverage for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Number of ray paths         661
+ Number of multibranch picks:            0
+Read Picks Time =  0.046 seconds.
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+
+ Restricting ray coverage for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size          181
+ Call loop star for source
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size          195
+ Call loop star for source
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size          182
+ Call loop star for source
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+WARNING init_point_source: Source layer 1 is below interface  1
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size            0
+ Tracing back to surface
+ Number of ray paths         661
+ Number of multibranch picks:            0
+Read Picks Time =  0.046 seconds.
+
+ Restricting ray coverage for interface  1
+Reset_model:      176 nodes of      176 potentially active interface nodes not timed (100.0%)
+ Reset_model: Active nodes in grid+interface:         7216
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Number of ray paths         626
+ Number of multibranch picks:            0
+Read Picks Time =  0.046 seconds.
+
+ Restricting ray coverage for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          187
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+WARNING init_point_source: Source layer 1 is below interface  1
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size            0
+ Tracing back to surface
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size          167
+ Call loop star for source
+Reset_model:      176 nodes of      176 potentially active interface nodes not timed (100.0%)
+ Reset_model: Active nodes in grid+interface:         7216
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          191
+ Number of ray paths         661
+ Number of multibranch picks:            0
+Read Picks Time =  0.048 seconds.
+
+ Restricting ray coverage for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Number of ray paths         632
+ Number of multibranch picks:            0
+Read Picks Time =  0.048 seconds.
+
+ Restricting ray coverage for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Number of ray paths         631
+ Number of multibranch picks:            0
+Read Picks Time =  0.048 seconds.
+
+ Restricting ray coverage for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Number of ray paths         632
+ Number of multibranch picks:            0
+Read Picks Time =  0.048 seconds.
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+
+ Restricting ray coverage for interface  1
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+WARNING init_point_source: Source layer 1 is below interface  1
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size            0
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Tracing back to surface
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size          191
+ Call loop star for source
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size          185
+ Call loop star for source
+ Number of ray paths         644
+ Number of multibranch picks:            0
+Read Picks Time =  0.048 seconds.
+ Number of ray paths         661
+ Number of multibranch picks:            0
+Read Picks Time =  0.048 seconds.
+
+ Restricting ray coverage for interface  1
+Reset_model:      176 nodes of      176 potentially active interface nodes not timed (100.0%)
+ Reset_model: Active nodes in grid+interface:         7216
+
+ Restricting ray coverage for interface  1
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          184
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size          198
+ Call loop star for source
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+WARNING init_point_source: Source layer 1 is below interface  1
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size            0
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size          158
+ Call loop star for source
+ Tracing back to surface
+Reset_model:      176 nodes of      176 potentially active interface nodes not timed (100.0%)
+ Reset_model: Active nodes in grid+interface:         7216
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          171
+ Number of ray paths         638
+ Number of multibranch picks:            0
+Read Picks Time =  0.049 seconds.
+
+ Restricting ray coverage for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size          210
+ Call loop star for source
+ Tracing back to surface
+ Tracing back to surface
+ Reset_model: Active nodes in grid+interface:         7392
+ Reset_model: Active nodes in grid+interface:         7392
+ Tracing back to surface
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          353
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          373
+ Reset_model: Active nodes in grid+interface:         7392
+ Tracing back to surface
+ Reset_model: Active nodes in grid+interface:         7392
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          364
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          325
+ Tracing back to surface
+ Reset_model: Active nodes in grid+interface:         7392
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          359
+ Tracing back to surface
+ Tracing back to surface
+ Reset_model: Active nodes in grid+interface:         7392
+ Tracing back to surface
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          326
+ Reset_model: Active nodes in grid+interface:         7392
+ Tracing back to surface
+ Reset_model: Active nodes in grid+interface:         7392
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          356
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          365
+ Reset_model: Active nodes in grid+interface:         7392
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          356
+ Tracing back to surface
+ Reset_model: Active nodes in grid+interface:         7392
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          358
+ Number of rays traced:          661
+ iexist            0
+ Rayfan_wr_version:             2
+ ninst           1
+ in, nsh, nsize:            8         661       18525
+ tstat   0.00000000    
+ Control:Finished receiving signal from rank =           8
+Finished sending signal to master, rank = 8
+Process  8 Tracing rays for source: 15 id #       15
+
+Tracing rays for instrument:  15 id #    15
+Instrument at (  20.000,   0.000,   0.971)
+Instrument in layer  1   0.000 km below interface  1 at    0.971
+Interpolated velocity at instrument:  1.415 km/s
+
+ Number of rays traced:          661
+ iexist            0
+ Rayfan_wr_version:             2
+ ninst           1
+ in, nsh, nsize:           10         661       14113
+ tstat   0.00000000    
+ Control:Finished receiving signal from rank =          10
+Finished sending signal to master, rank =10
+Process 10 Tracing rays for source: 16 id #       16
+
+Tracing rays for instrument:  16 id #    16
+Instrument at (  19.000,   0.000,   1.103)
+Instrument in layer  1   0.000 km below interface  1 at    1.103
+Interpolated velocity at instrument:  1.445 km/s
+
+ Number of rays traced:          661
+ iexist            0
+ Rayfan_wr_version:             2
+ ninst           1
+ in, nsh, nsize:            4         661       24074
+ tstat   0.00000000    
+ Control:Finished receiving signal from rank =           4
+Finished sending signal to master, rank = 4
+Process  4 Tracing rays for source: 17 id #       17
+
+Tracing rays for instrument:  17 id #    17
+ Number of rays traced:          661
+Instrument at (  18.000,   0.000,   1.030)
+Instrument in layer  1   0.000 km below interface  1 at    1.030
+Interpolated velocity at instrument:  1.534 km/s
+
+ iexist            0
+ Rayfan_wr_version:             2
+ ninst           1
+ in, nsh, nsize:            2         661       26483
+ tstat   0.00000000    
+ Control:Finished receiving signal from rank =           2
+Finished sending signal to master, rank = 2
+Process  2 Tracing rays for source: 18 id #       18
+
+Tracing rays for instrument:  18 id #    18
+Instrument at (  17.000,   0.000,   0.946)
+Instrument in layer  1   0.000 km below interface  1 at    0.946
+Interpolated velocity at instrument:  1.493 km/s
+
+ Number of shots        3302
+ Number of shots        3302
+ Number of shots        3302
+ Number of shots        3302
+ Number of rays traced:          644
+ iexist            0
+ Rayfan_wr_version:             2
+ ninst           1
+ in, nsh, nsize:            1         644       28784
+ tstat   0.00000000    
+ Number of rays traced:          627
+ iexist            0
+ Rayfan_wr_version:             2
+ ninst           1
+ in, nsh, nsize:           14         627       14805
+ tstat   0.00000000    
+ Number of rays traced:          632
+ Control:Finished receiving signal from rank =          14
+Finished sending signal to master, rank =14
+Process 14 Tracing rays for source: 19 id #       19
+ iexist            0
+ Rayfan_wr_version:             2
+ ninst           1
+ in, nsh, nsize:            3         632       26885
+ tstat   0.00000000    
+
+Tracing rays for instrument:  19 id #    19
+ Control:Finished receiving signal from rank =           1
+Writing file shot:        1
+Finished sending signal to master, rank = 1
+Process  1 Tracing rays for source: 20 id #       20
+
+Tracing rays for instrument:  20 id #    20
+Instrument at (  16.000,   0.000,   0.931)
+Instrument in layer  0   0.000 km above interface  1 at    0.931
+Interpolated velocity at instrument:  2.045 km/s
+
+Instrument at (  15.000,   0.000,   0.937)
+Instrument in layer  0   0.000 km above interface  1 at    0.937
+Interpolated velocity at instrument:  2.075 km/s
+
+Finished sending signal to master, rank = 3
+ Number of rays traced:          625
+ iexist            0
+ Rayfan_wr_version:             2
+ ninst           1
+ in, nsh, nsize:           13         625       14474
+ tstat   0.00000000    
+ Number of rays traced:          635
+ iexist            0
+ Rayfan_wr_version:             2
+ ninst           1
+ in, nsh, nsize:            1         644       28784
+ tstat   0.00000000    
+ Number of rays traced:          632
+ Number of rays traced:          631
+ iexist            0
+ Rayfan_wr_version:             2
+ ninst           1
+ in, nsh, nsize:            9         635       19128
+ tstat   0.00000000    
+ iexist            0
+ Rayfan_wr_version:             2
+ ninst           1
+ in, nsh, nsize:            5         632       22524
+ tstat   0.00000000    
+ Number of rays traced:          619
+Finished sending signal to master, rank =13
+ iexist            0
+ Rayfan_wr_version:             2
+ ninst           1
+ in, nsh, nsize:            6         631       23276
+ tstat   0.00000000    
+ iexist            0
+ Rayfan_wr_version:             2
+ ninst           1
+ in, nsh, nsize:           11         619       15131
+ tstat   0.00000000    
+Finished sending signal to master, rank = 9
+Finished sending signal to master, rank = 5
+Finished sending signal to master, rank = 6
+Finished sending signal to master, rank =11
+ Number of rays traced:          626
+ iexist            0
+ Rayfan_wr_version:             2
+ ninst           1
+ in, nsh, nsize:           12         626       13628
+ tstat   0.00000000    
+Finished sending signal to master, rank =12
+ Number of rays traced:          638
+ iexist            0
+ Rayfan_wr_version:             2
+ ninst           1
+ in, nsh, nsize:            7         638       22027
+ tstat   0.00000000    
+Finished sending signal to master, rank = 7
+Writing file shot:        2
+ iexist            1
+ Rayfan_wr_version:             2
+ ninst           2
+ in, nsh, nsize:            2         661       26483
+ tstat   0.00000000    
+ Number of shots        3302
+ Control:Finished receiving signal from rank =           3
+Writing file shot:        3
+Process  3 Tracing rays for source: 21 id #       21
+
+Tracing rays for instrument:  21 id #    21
+Instrument at (  14.000,   0.000,   1.080)
+Instrument in layer  1   0.000 km below interface  1 at    1.080
+Interpolated velocity at instrument:  1.821 km/s
+
+ iexist            1
+ Rayfan_wr_version:             2
+ ninst           3
+ in, nsh, nsize:            3         632       26885
+ tstat   0.00000000    
+ Number of shots        3302
+Writing file shot:        4
+ iexist            1
+ Rayfan_wr_version:             2
+ ninst           4
+ in, nsh, nsize:            4         661       24074
+ tstat   0.00000000    
+ Control:Finished receiving signal from rank =           5
+Writing file shot:        5
+Process  5 Tracing rays for source: 22 id #       22
+
+Tracing rays for instrument:  22 id #    22
+Instrument at (  13.000,   0.000,   1.289)
+Instrument in layer  1   0.000 km below interface  1 at    1.289
+Interpolated velocity at instrument:  1.462 km/s
+
+ iexist            1
+ Rayfan_wr_version:             2
+ ninst           5
+ in, nsh, nsize:            5         632       22524
+ tstat   0.00000000    
+ Number of shots        3302
+ Control:Finished receiving signal from rank =           6
+Writing file shot:        6
+Process  6 Tracing rays for source: 23 id #       23
+
+Tracing rays for instrument:  23 id #    23
+Instrument at (  12.000,   0.000,   1.406)
+Instrument in layer  0   0.000 km above interface  1 at    1.406
+Interpolated velocity at instrument:  1.528 km/s
+
+ iexist            1
+ Rayfan_wr_version:             2
+ ninst           6
+ in, nsh, nsize:            6         631       23276
+ tstat   0.00000000    
+ Control:Finished receiving signal from rank =           7
+Writing file shot:        7
+Process  7 Tracing rays for source: 24 id #       24
+
+Tracing rays for instrument:  24 id #    24
+Instrument at (  11.000,   0.000,   1.406)
+Instrument in layer  0   0.000 km above interface  1 at    1.406
+Interpolated velocity at instrument:  1.786 km/s
+
+ iexist            1
+ Rayfan_wr_version:             2
+ ninst           7
+ in, nsh, nsize:            7         638       22027
+ tstat   0.00000000    
+ Number of shots        3302
+Writing file shot:        8
+ iexist            1
+ Rayfan_wr_version:             2
+ ninst           8
+ in, nsh, nsize:            8         661       18525
+ tstat   0.00000000    
+ Number of shots        3302
+ Control:Finished receiving signal from rank =           9
+Writing file shot:        9
+Process  9 Tracing rays for source: 25 id #       25
+
+Tracing rays for instrument:  25 id #    25
+Instrument at (  10.000,   0.000,   1.408)
+Instrument in layer  0   0.000 km above interface  1 at    1.408
+Interpolated velocity at instrument:  1.498 km/s
+
+ iexist            1
+ Rayfan_wr_version:             2
+ ninst           9
+ in, nsh, nsize:            9         635       19128
+ tstat   0.00000000    
+ Number of shots        3302
+Writing file shot:       10
+ iexist            1
+ Rayfan_wr_version:             2
+ ninst          10
+ in, nsh, nsize:           10         661       14113
+ tstat   0.00000000    
+ Number of ray paths         661
+ Number of multibranch picks:            0
+Read Picks Time =  0.045 seconds.
+
+ Restricting ray coverage for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+WARNING init_point_source: Source layer 1 is below interface  1
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size            0
+ Tracing back to surface
+ Number of ray paths         661
+ Number of multibranch picks:            0
+Reset_model:      176 nodes of      176 potentially active interface nodes not timed (100.0%)
+ Reset_model: Active nodes in grid+interface:         7216
+Read Picks Time =  0.045 seconds.
+
+ Restricting ray coverage for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          182
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+WARNING init_point_source: Source layer 1 is below interface  1
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size            0
+ Tracing back to surface
+Reset_model:      176 nodes of      176 potentially active interface nodes not timed (100.0%)
+ Reset_model: Active nodes in grid+interface:         7216
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          197
+ Control:Finished receiving signal from rank =          11
+Writing file shot:       11
+Process 11 Tracing rays for source: 26 id #       26
+
+Tracing rays for instrument:  26 id #    26
+Instrument at (   9.000,   0.000,   1.449)
+Instrument in layer  0   0.000 km above interface  1 at    1.449
+Interpolated velocity at instrument:  1.627 km/s
+
+ iexist            1
+ Rayfan_wr_version:             2
+ ninst          11
+ in, nsh, nsize:           11         619       15131
+ tstat   0.00000000    
+ Number of ray paths         661
+ Number of multibranch picks:            0
+Read Picks Time =  0.047 seconds.
+
+ Restricting ray coverage for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+WARNING init_point_source: Source layer 1 is below interface  1
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size            0
+ Tracing back to surface
+Reset_model:      176 nodes of      176 potentially active interface nodes not timed (100.0%)
+ Reset_model: Active nodes in grid+interface:         7216
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          178
+ Number of ray paths         661
+ Number of multibranch picks:            0
+Read Picks Time =  0.047 seconds.
+
+ Restricting ray coverage for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+WARNING init_point_source: Source layer 1 is below interface  1
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size            0
+ Tracing back to surface
+Reset_model:      176 nodes of      176 potentially active interface nodes not timed (100.0%)
+ Reset_model: Active nodes in grid+interface:         7216
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          164
+ Number of shots        3302
+ Control:Finished receiving signal from rank =          12
+Writing file shot:       12
+Process 12 Tracing rays for source: 27 id #       27
+
+Tracing rays for instrument:  27 id #    27
+Instrument at (   8.000,   0.000,   1.506)
+Instrument in layer  0   0.000 km above interface  1 at    1.506
+Interpolated velocity at instrument:  1.715 km/s
+
+ iexist            1
+ Rayfan_wr_version:             2
+ ninst          12
+ in, nsh, nsize:           12         626       13628
+ tstat   0.00000000    
+ Control:Finished receiving signal from rank =          13
+Writing file shot:       13
+Process 13 Tracing rays for source: 28 id #       28
+
+Tracing rays for instrument:  28 id #    28
+Instrument at (   7.000,   0.000,   1.531)
+Instrument in layer  0   0.000 km above interface  1 at    1.531
+Interpolated velocity at instrument:  1.583 km/s
+
+ iexist            1
+ Rayfan_wr_version:             2
+ ninst          13
+ in, nsh, nsize:           13         625       14474
+ tstat   0.00000000    
+ Number of ray paths         632
+ Number of multibranch picks:            0
+Read Picks Time =  0.045 seconds.
+
+ Restricting ray coverage for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size          201
+ Call loop star for source
+ Number of shots        3302
+Writing file shot:       14
+ iexist            1
+ Rayfan_wr_version:             2
+ ninst          14
+ in, nsh, nsize:           14         627       14805
+ tstat   0.00000000    
+ Number of ray paths         633
+ Number of multibranch picks:            0
+Read Picks Time =  0.048 seconds.
+
+ Restricting ray coverage for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size          211
+ Call loop star for source
+ Number of shots        3302
+ Number of shots        3302
+ Tracing back to surface
+ Reset_model: Active nodes in grid+interface:         7392
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          344
+ Number of ray paths         661
+ Number of multibranch picks:            0
+Read Picks Time =  0.047 seconds.
+
+ Restricting ray coverage for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+WARNING init_point_source: Source layer 1 is below interface  1
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size            0
+ Tracing back to surface
+Reset_model:      176 nodes of      176 potentially active interface nodes not timed (100.0%)
+ Reset_model: Active nodes in grid+interface:         7216
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          176
+ Tracing back to surface
+ Reset_model: Active nodes in grid+interface:         7392
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          335
+ Number of ray paths         626
+ Number of multibranch picks:            0
+Read Picks Time =  0.048 seconds.
+
+ Restricting ray coverage for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size          190
+ Call loop star for source
+ Number of ray paths         661
+ Number of multibranch picks:            0
+Read Picks Time =  0.052 seconds.
+
+ Restricting ray coverage for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+WARNING init_point_source: Source layer 1 is below interface  1
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size            0
+ Tracing back to surface
+Reset_model:      176 nodes of      176 potentially active interface nodes not timed (100.0%)
+ Reset_model: Active nodes in grid+interface:         7216
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          189
+ Number of ray paths         631
+ Number of multibranch picks:            0
+Read Picks Time =  0.048 seconds.
+
+ Restricting ray coverage for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size          207
+ Call loop star for source
+ Tracing back to surface
+ Reset_model: Active nodes in grid+interface:         7392
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          362
+ Tracing back to surface
+ Reset_model: Active nodes in grid+interface:         7392
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          349
+ Number of ray paths         630
+ Number of multibranch picks:            0
+Read Picks Time =  0.052 seconds.
+
+ Restricting ray coverage for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size          205
+ Call loop star for source
+ Number of ray paths         634
+ Number of multibranch picks:            0
+Read Picks Time =  0.048 seconds.
+
+ Restricting ray coverage for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size          186
+ Call loop star for source
+ Number of ray paths         632
+ Number of multibranch picks:            0
+Read Picks Time =  0.053 seconds.
+
+ Restricting ray coverage for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size          210
+ Call loop star for source
+ Number of rays traced:          661
+ iexist            0
+ Rayfan_wr_version:             2
+ ninst           1
+ in, nsh, nsize:           15         661       15064
+ tstat   0.00000000    
+ Number of rays traced:          661
+ iexist            0
+ Rayfan_wr_version:             2
+ ninst           1
+ in, nsh, nsize:           16         661       15422
+Finished sending signal to master, rank = 8
+ tstat   0.00000000    
+ Control:Finished receiving signal from rank =           8
+Writing file shot:       15
+Process  8 Tracing rays for source: 29 id #       29
+
+Tracing rays for instrument:  29 id #    29
+Instrument at (   6.000,   0.000,   1.531)
+Instrument in layer  0   0.000 km above interface  1 at    1.531
+Interpolated velocity at instrument:  1.439 km/s
+
+Finished sending signal to master, rank =10
+ iexist            1
+ Rayfan_wr_version:             2
+ ninst          15
+ in, nsh, nsize:           15         661       15064
+ tstat   0.00000000    
+ Tracing back to surface
+ Reset_model: Active nodes in grid+interface:         7392
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          346
+ Number of ray paths         632
+ Number of multibranch picks:            0
+Read Picks Time =  0.048 seconds.
+
+ Restricting ray coverage for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size          204
+ Call loop star for source
+ Number of rays traced:          661
+ iexist            0
+ Rayfan_wr_version:             2
+ ninst           1
+ in, nsh, nsize:           17         661       17888
+ tstat   0.00000000    
+Finished sending signal to master, rank = 4
+ Number of rays traced:          661
+ iexist            0
+ Rayfan_wr_version:             2
+ ninst           1
+ in, nsh, nsize:           18         661       16284
+ tstat   0.00000000    
+Finished sending signal to master, rank = 2
+ Control:Finished receiving signal from rank =          10
+Writing file shot:       16
+Process 10 Tracing rays for source: 30 id #       30
+
+Tracing rays for instrument:  30 id #    30
+Instrument at (   5.000,   0.000,   1.514)
+Instrument in layer  0   0.000 km above interface  1 at    1.514
+Interpolated velocity at instrument:  1.566 km/s
+
+ iexist            1
+ Rayfan_wr_version:             2
+ ninst          16
+ in, nsh, nsize:           16         661       15422
+ tstat   0.00000000    
+ Control:Finished receiving signal from rank =           2
+ Control:Finished receiving signal from rank =           4
+Writing file shot:       17
+Process  2 Tracing rays for source: 31 id #       31
+
+Tracing rays for instrument:  31 id #    31
+Process  4 Tracing rays for source: 32 id #       32
+
+Tracing rays for instrument:  32 id #    32
+Instrument at (   4.000,   0.000,   1.473)
+Instrument in layer  0   0.000 km above interface  1 at    1.473
+Interpolated velocity at instrument:  1.433 km/s
+
+Instrument at (   3.000,   0.000,   1.422)
+Instrument in layer  0   0.000 km above interface  1 at    1.422
+Interpolated velocity at instrument:  1.283 km/s
+
+ iexist            1
+ Rayfan_wr_version:             2
+ ninst          17
+ in, nsh, nsize:           17         661       17888
+ tstat   0.00000000    
+ Tracing back to surface
+ Reset_model: Active nodes in grid+interface:         7392
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          355
+ Number of shots        3302
+ Tracing back to surface
+ Reset_model: Active nodes in grid+interface:         7392
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          341
+Writing file shot:       18
+ iexist            1
+ Rayfan_wr_version:             2
+ ninst          18
+ in, nsh, nsize:           18         661       16284
+ tstat   0.00000000    
+ Tracing back to surface
+ Reset_model: Active nodes in grid+interface:         7392
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          350
+ Number of shots        3302
+ Number of shots        3302
+ Number of shots        3302
+ Number of rays traced:          661
+ iexist            0
+ Rayfan_wr_version:             2
+ ninst           1
+ in, nsh, nsize:           21         661       13978
+ tstat   0.00000000    
+Finished sending signal to master, rank = 3
+ Control:Finished receiving signal from rank =           3
+Process  3 Tracing rays for source: 33 id #       33
+
+Tracing rays for instrument:  33 id #    33
+Instrument at (   2.000,   0.000,   1.392)
+Instrument in layer  0   0.000 km above interface  1 at    1.392
+Interpolated velocity at instrument:  1.297 km/s
+
+ Number of rays traced:          632
+ iexist            0
+ Rayfan_wr_version:             2
+ ninst           1
+ in, nsh, nsize:           19         632       17118
+ tstat   0.00000000    
+ Control:Finished receiving signal from rank =          14
+Writing file shot:       19
+Finished sending signal to master, rank =14
+Process 14 Tracing rays for source: 34 id #       34
+
+Tracing rays for instrument:  34 id #    34
+Instrument at (   1.000,   0.000,   1.370)
+Instrument in layer  1   0.000 km below interface  1 at    1.370
+Interpolated velocity at instrument:  1.580 km/s
+
+ iexist            1
+ Rayfan_wr_version:             2
+ ninst          19
+ in, nsh, nsize:           19         632       17118
+ tstat   0.00000000    
+ Number of rays traced:          633
+ iexist            0
+ Rayfan_wr_version:             2
+ ninst           1
+ in, nsh, nsize:           20         633       14580
+ tstat   0.00000000    
+Finished sending signal to master, rank = 1
+ Number of shots        3302
+ Number of shots        3302
+ Number of rays traced:          661
+ iexist            0
+ Rayfan_wr_version:             2
+ ninst           1
+ in, nsh, nsize:           22         661       13411
+ tstat   0.00000000    
+Finished sending signal to master, rank = 5
+ Number of rays traced:          626
+ iexist            0
+ Rayfan_wr_version:             2
+ ninst           1
+ in, nsh, nsize:           23         626       14737
+ tstat   0.00000000    
+Finished sending signal to master, rank = 6
+ Number of rays traced:          631
+ iexist            0
+ Rayfan_wr_version:             2
+ ninst           1
+ in, nsh, nsize:           24         631       15808
+ tstat   0.00000000    
+Finished sending signal to master, rank = 7
+ Number of ray paths         629
+ Number of multibranch picks:            0
+Read Picks Time =  0.048 seconds.
+
+ Restricting ray coverage for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size          206
+ Call loop star for source
+ Number of ray paths         630
+ Number of multibranch picks:            0
+Read Picks Time =  0.048 seconds.
+
+ Restricting ray coverage for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size          192
+ Call loop star for source
+ Number of ray paths         629
+ Number of multibranch picks:            0
+Read Picks Time =  0.048 seconds.
+
+ Restricting ray coverage for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Number of ray paths         629
+ Number of multibranch picks:            0
+Read Picks Time =  0.048 seconds.
+
+ Restricting ray coverage for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size          190
+ Call loop star for source
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size          213
+ Call loop star for source
+ Number of rays traced:          630
+ iexist            0
+ Rayfan_wr_version:             2
+ ninst           1
+ in, nsh, nsize:           25         630       15453
+ tstat   0.00000000    
+Finished sending signal to master, rank = 9
+ Tracing back to surface
+ Reset_model: Active nodes in grid+interface:         7392
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          349
+ Tracing back to surface
+ Reset_model: Active nodes in grid+interface:         7392
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          354
+ Number of rays traced:          634
+ iexist            0
+ Rayfan_wr_version:             2
+ ninst           1
+ in, nsh, nsize:           27         634       19556
+ tstat   0.00000000    
+Finished sending signal to master, rank =12
+ Tracing back to surface
+ Reset_model: Active nodes in grid+interface:         7392
+ Tracing back to surface
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          351
+ Reset_model: Active nodes in grid+interface:         7392
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          360
+ Number of rays traced:          632
+ iexist            0
+ Rayfan_wr_version:             2
+ ninst           1
+ in, nsh, nsize:           26         632       16956
+ tstat   0.00000000    
+Finished sending signal to master, rank =11
+ Number of rays traced:          632
+ iexist            0
+ Rayfan_wr_version:             2
+ ninst           1
+ in, nsh, nsize:           28         632       23432
+ tstat   0.00000000    
+Finished sending signal to master, rank =13
+ Number of ray paths         640
+ Number of multibranch picks:            0
+Read Picks Time =  0.047 seconds.
+
+ Restricting ray coverage for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size          209
+ Call loop star for source
+ Number of ray paths         661
+ Number of multibranch picks:            0
+Read Picks Time =  0.047 seconds.
+
+ Restricting ray coverage for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+WARNING init_point_source: Source layer 1 is below interface  1
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size            0
+ Tracing back to surface
+Reset_model:      176 nodes of      176 potentially active interface nodes not timed (100.0%)
+ Reset_model: Active nodes in grid+interface:         7216
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          147
+ Tracing back to surface
+ Reset_model: Active nodes in grid+interface:         7392
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          358
+ Number of rays traced:          629
+ iexist            0
+ Rayfan_wr_version:             2
+ ninst           1
+ in, nsh, nsize:           29         629       22410
+ tstat   0.00000000    
+Finished sending signal to master, rank = 8
+ Number of rays traced:          630
+ iexist            0
+ Rayfan_wr_version:             2
+ ninst           1
+ in, nsh, nsize:           30         630       23648
+ tstat   0.00000000    
+Finished sending signal to master, rank =10
+ Number of rays traced:          629
+ iexist            0
+ Rayfan_wr_version:             2
+ ninst           1
+ in, nsh, nsize:           32         629       30880
+ tstat   0.00000000    
+Finished sending signal to master, rank = 4
+ Number of rays traced:          629
+ iexist            0
+ Rayfan_wr_version:             2
+ ninst           1
+ in, nsh, nsize:           31         629       23300
+ tstat   0.00000000    
+Finished sending signal to master, rank = 2
+ Number of rays traced:          661
+ iexist            0
+ Rayfan_wr_version:             2
+ ninst           1
+ in, nsh, nsize:           34         661       37733
+ tstat   0.00000000    
+Finished sending signal to master, rank =14
+ Number of rays traced:          640
+ iexist            0
+ Rayfan_wr_version:             2
+ ninst           1
+ in, nsh, nsize:           33         640       28863
+ tstat   0.00000000    
+Finished sending signal to master, rank = 3
+Writing file shot:       20
+ iexist            1
+ Rayfan_wr_version:             2
+ ninst          20
+ in, nsh, nsize:           20         633       14580
+ tstat   0.00000000    
+Writing file shot:       21
+ iexist            1
+ Rayfan_wr_version:             2
+ ninst          21
+ in, nsh, nsize:           21         661       13978
+ tstat   0.00000000    
+Writing file shot:       22
+ iexist            1
+ Rayfan_wr_version:             2
+ ninst          22
+ in, nsh, nsize:           22         661       13411
+ tstat   0.00000000    
+Writing file shot:       23
+ iexist            1
+ Rayfan_wr_version:             2
+ ninst          23
+ in, nsh, nsize:           23         626       14737
+ tstat   0.00000000    
+Writing file shot:       24
+ iexist            1
+ Rayfan_wr_version:             2
+ ninst          24
+ in, nsh, nsize:           24         631       15808
+ tstat   0.00000000    
+Writing file shot:       25
+ iexist            1
+ Rayfan_wr_version:             2
+ ninst          25
+ in, nsh, nsize:           25         630       15453
+ tstat   0.00000000    
+Writing file shot:       26
+ iexist            1
+ Rayfan_wr_version:             2
+ ninst          26
+ in, nsh, nsize:           26         632       16956
+ tstat   0.00000000    
+Writing file shot:       27
+ iexist            1
+ Rayfan_wr_version:             2
+ ninst          27
+ in, nsh, nsize:           27         634       19556
+ tstat   0.00000000    
+Writing file shot:       28
+ iexist            1
+ Rayfan_wr_version:             2
+ ninst          28
+ in, nsh, nsize:           28         632       23432
+ tstat   0.00000000    
+Writing file shot:       29
+ iexist            1
+ Rayfan_wr_version:             2
+ ninst          29
+ in, nsh, nsize:           29         629       22410
+ tstat   0.00000000    
+Writing file shot:       30
+ iexist            1
+ Rayfan_wr_version:             2
+ ninst          30
+ in, nsh, nsize:           30         630       23648
+ tstat   0.00000000    
+Writing file shot:       31
+ iexist            1
+ Rayfan_wr_version:             2
+ ninst          31
+ in, nsh, nsize:           31         629       23300
+ tstat   0.00000000    
+Writing file shot:       32
+ iexist            1
+ Rayfan_wr_version:             2
+ ninst          32
+ in, nsh, nsize:           32         629       30880
+ tstat   0.00000000    
+Writing file shot:       33
+ iexist            1
+ Rayfan_wr_version:             2
+ ninst          33
+ in, nsh, nsize:           33         640       28863
+ tstat   0.00000000    
+Writing file shot:       34
+ iexist            1
+ Rayfan_wr_version:             2
+ ninst          34
+ in, nsh, nsize:           34         661       37733
+ tstat   0.00000000    
+ About to call MPI_Finalize in Main: rank =            0
+ About to call MPI_Finalize in Main: rank =            1
+ About to call MPI_Finalize in Main: rank =            2
+ About to call MPI_Finalize in Main: rank =            3
+ About to call MPI_Finalize in Main: rank =            4
+ About to call MPI_Finalize in Main: rank =            5
+ About to call MPI_Finalize in Main: rank =            6
+ About to call MPI_Finalize in Main: rank =            7
+ About to call MPI_Finalize in Main: rank =            8
+ About to call MPI_Finalize in Main: rank =            9
+ About to call MPI_Finalize in Main: rank =           10
+ About to call MPI_Finalize in Main: rank =           11
+ About to call MPI_Finalize in Main: rank =           12
+ About to call MPI_Finalize in Main: rank =           13
+ About to call MPI_Finalize in Main: rank =           14
+End of Program
+
+
+End of Program
+
+
+End of Program
+
+
+End of Program
+
+
+End of Program
+
+
+End of Program
+
+
+End of Program
+
+
+End of Program
+
+
+End of Program
+
+
+End of Program
+
+
+End of Program
+
+
+End of Program
+
+
+End of Program
+
+
+End of Program
+
+
+End of Program
+
+
+5.839u 10.058s 0:01.17 1357.2%	0+0k 0+34648io 0pf+0w

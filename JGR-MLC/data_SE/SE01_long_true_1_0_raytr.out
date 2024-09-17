@@ -1,0 +1,2297 @@
+Reading inputs from file: new_rays.in
+
+
+getfil for file inversion_fake/SE01_long_true_1_0.vm                                             
+getfil entry available fd: 35
+getfil exit available fd: 34
+getfil return fd 7
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+frefil exit available fd: 35
+
+Reading inputs from file: new_rays.in
+
+
+getfil for file inversion_fake/SE01_long_true_1_0.vm                                             
+getfil entry available fd: 35
+getfil exit available fd: 34
+getfil return fd 7
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+frefil exit available fd: 35
+
+Reading inputs from file: new_rays.in
+
+
+getfil for file inversion_fake/SE01_long_true_1_0.vm                                             
+getfil entry available fd: 35
+getfil exit available fd: 34
+getfil return fd 7
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+frefil exit available fd: 35
+
+Reading inputs from file: new_rays.in
+
+
+getfil for file inversion_fake/SE01_long_true_1_0.vm                                             
+getfil entry available fd: 35
+getfil exit available fd: 34
+getfil return fd 7
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+frefil exit available fd: 35
+
+ Graphing Grid size:          176           1          41
+Ray branches:   1  1
+
+Input velocity (vm) model: inversion_fake/SE01_long_true_1_0.vm
+ Dimensions:          176           1          41
+ Spacing:   0.200000003       0.00000000      0.100000001    
+ Model     top-left:    0.000   0.000   0.000
+ Model bottom-right:   35.000   0.000   4.000
+ Calling raytr_control 
+Control inst_id size   34
+
+Forward star  9  0  9
+Min angle between directions (deg) 1.00
+Initial forward star:   57 of  100 (  57%) active nodes
+After pruning for similar directions (angles sep<  1.0 deg)    40 of  100 (  40%) active nodes
+Process  2 Tracing rays for source:  2 id #        2
+
+Tracing rays for instrument:   2 id #     2
+Process  3 Tracing rays for source:  3 id #        3
+
+Tracing rays for instrument:   3 id #     3
+Process  1 Tracing rays for source:  1 id #        1
+
+Tracing rays for instrument:   1 id #     1
+Instrument at (  33.000,   0.000,   1.544)
+Instrument in layer  1   0.000 km below interface  1 at    1.544
+Interpolated velocity at instrument:  1.573 km/s
+
+Instrument at (  32.000,   0.000,   1.556)
+Instrument in layer  0   0.000 km above interface  1 at    1.556
+Interpolated velocity at instrument:  1.574 km/s
+
+Instrument at (  34.000,   0.000,   1.556)
+Instrument in layer  0   0.000 km above interface  1 at    1.556
+Interpolated velocity at instrument:  1.572 km/s
+
+ Number of shots        3302
+ Number of shots        3302
+ Number of shots        3302
+ Number of ray paths         661
+ Number of multibranch picks:            0
+Read Picks Time =  0.422 seconds.
+
+ Restricting ray coverage for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+WARNING init_point_source: Source layer 1 is below interface  1
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size            0
+ Tracing back to surface
+Reset_model:      176 nodes of      176 potentially active interface nodes not timed (100.0%)
+ Reset_model: Active nodes in grid+interface:         7216
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          171
+ Number of ray paths         661
+ Number of multibranch picks:            0
+Read Picks Time =  0.427 seconds.
+
+ Restricting ray coverage for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size          198
+ Call loop star for source
+ Number of ray paths         661
+ Number of multibranch picks:            0
+Read Picks Time =  0.430 seconds.
+
+ Restricting ray coverage for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size          158
+ Call loop star for source
+ Tracing back to surface
+ Reset_model: Active nodes in grid+interface:         7392
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          365
+ Tracing back to surface
+ Reset_model: Active nodes in grid+interface:         7392
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          326
+ Number of rays traced:          661
+
+getfil for file raytr_inst00000002
+getfil entry available fd: 35
+getfil exit available fd: 34
+getfil return fd 7
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+ Control:Finished receiving signal from rank =           2
+frefil exit available fd: 35
+
+Finished sending signal to master, rank = 2
+Process  2 Tracing rays for source:  4 id #        4
+
+Tracing rays for instrument:   4 id #     4
+Instrument at (  31.000,   0.000,   1.577)
+Instrument in layer  1   0.000 km below interface  1 at    1.577
+Interpolated velocity at instrument:  1.592 km/s
+
+ Number of shots        3302
+ Number of rays traced:          661
+
+getfil for file raytr_inst00000001
+getfil entry available fd: 35
+getfil exit available fd: 34
+getfil return fd 7
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+frefil exit available fd: 35
+
+ Control:Finished receiving signal from rank =           1
+Finished sending signal to master, rank = 1
+Writing file shot:        1
+Process  1 Tracing rays for source:  5 id #        5
+
+Tracing rays for instrument:   5 id #     5
+
+getfil for file raytr_inst00000001                                                              
+getfil entry available fd: 35
+Instrument at (  30.000,   0.000,   1.606)
+Instrument in layer  0   0.000 km above interface  1 at    1.606
+Interpolated velocity at instrument:  1.579 km/s
+
+getfil exit available fd: 34
+getfil return fd 7
+ Number of rays traced:          661
+
+getfil for file raytr_inst00000003
+getfil entry available fd: 35
+getfil exit available fd: 34
+getfil return fd 7
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+frefil exit available fd: 35
+
+Finished sending signal to master, rank = 3
+
+getfil for file inversion_fake/SE01_long_true_1_0.ray
+getfil entry available fd: 34
+getfil exit available fd: 33
+getfil return fd 8
+
+frefil: freeing descriptor 8
+frefil entry available fd: 33
+frefil exit available fd: 34
+
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+frefil exit available fd: 35
+
+Writing file shot:        2
+
+getfil for file raytr_inst00000002                                                              
+getfil entry available fd: 35
+getfil exit available fd: 34
+getfil return fd 7
+
+getfil for file inversion_fake/SE01_long_true_1_0.ray
+getfil entry available fd: 34
+getfil exit available fd: 33
+getfil return fd 8
+
+frefil: freeing descriptor 8
+frefil entry available fd: 33
+frefil exit available fd: 34
+
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+ Number of shots        3302
+frefil exit available fd: 35
+
+ Control:Finished receiving signal from rank =           3
+Writing file shot:        3
+Process  3 Tracing rays for source:  6 id #        6
+
+Tracing rays for instrument:   6 id #     6
+
+getfil for file raytr_inst00000003                                                              
+getfil entry available fd: 35
+Instrument at (  29.000,   0.000,   1.606)
+Instrument in layer  0   0.000 km above interface  1 at    1.606
+Interpolated velocity at instrument:  1.591 km/s
+
+getfil exit available fd: 34
+getfil return fd 7
+
+getfil for file inversion_fake/SE01_long_true_1_0.ray
+getfil entry available fd: 34
+getfil exit available fd: 33
+getfil return fd 8
+
+frefil: freeing descriptor 8
+frefil entry available fd: 33
+frefil exit available fd: 34
+
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+frefil exit available fd: 35
+
+ Number of shots        3302
+ Number of ray paths         661
+ Number of multibranch picks:            0
+Read Picks Time =  0.436 seconds.
+
+ Restricting ray coverage for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+WARNING init_point_source: Source layer 1 is below interface  1
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size            0
+ Tracing back to surface
+Reset_model:      176 nodes of      176 potentially active interface nodes not timed (100.0%)
+ Reset_model: Active nodes in grid+interface:         7216
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          184
+ Number of ray paths         661
+ Number of multibranch picks:            0
+Read Picks Time =  0.436 seconds.
+
+ Restricting ray coverage for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size          185
+ Call loop star for source
+ Tracing back to surface
+ Reset_model: Active nodes in grid+interface:         7392
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          356
+ Number of ray paths         661
+ Number of multibranch picks:            0
+Read Picks Time =  0.434 seconds.
+
+ Restricting ray coverage for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size          191
+ Call loop star for source
+ Tracing back to surface
+ Reset_model: Active nodes in grid+interface:         7392
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          356
+ Number of rays traced:          661
+
+getfil for file raytr_inst00000004
+getfil entry available fd: 35
+getfil exit available fd: 34
+getfil return fd 7
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+frefil exit available fd: 35
+
+ Control:Finished receiving signal from rank =           2
+Writing file shot:        4
+Finished sending signal to master, rank = 2
+Process  2 Tracing rays for source:  7 id #        7
+
+Tracing rays for instrument:   7 id #     7
+Instrument at (  28.000,   0.000,   1.590)
+Instrument in layer  0   0.000 km above interface  1 at    1.590
+
+getfil for file raytr_inst00000004                                                              
+getfil entry available fd: 35
+getfil exit available fd: 34
+getfil return fd 7
+Interpolated velocity at instrument:  1.579 km/s
+
+
+getfil for file inversion_fake/SE01_long_true_1_0.ray
+getfil entry available fd: 34
+getfil exit available fd: 33
+getfil return fd 8
+
+frefil: freeing descriptor 8
+frefil entry available fd: 33
+frefil exit available fd: 34
+
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+frefil exit available fd: 35
+
+ Number of shots        3302
+ Number of rays traced:          661
+
+getfil for file raytr_inst00000005
+getfil entry available fd: 35
+getfil exit available fd: 34
+getfil return fd 7
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+frefil exit available fd: 35
+
+Finished sending signal to master, rank = 1
+ Control:Finished receiving signal from rank =           1
+Writing file shot:        5
+Process  1 Tracing rays for source:  8 id #        8
+
+Tracing rays for instrument:   8 id #     8
+
+getfil for file raytr_inst00000005                                                              
+getfil entry available fd: 35
+Instrument at (  27.000,   0.000,   1.560)
+Instrument in layer  1   0.000 km below interface  1 at    1.560
+Interpolated velocity at instrument:  1.572 km/s
+
+getfil exit available fd: 34
+getfil return fd 7
+
+getfil for file inversion_fake/SE01_long_true_1_0.ray
+getfil entry available fd: 34
+getfil exit available fd: 33
+getfil return fd 8
+
+frefil: freeing descriptor 8
+frefil entry available fd: 33
+frefil exit available fd: 34
+
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+frefil exit available fd: 35
+
+ Number of shots        3302
+ Number of rays traced:          661
+
+getfil for file raytr_inst00000006
+getfil entry available fd: 35
+getfil exit available fd: 34
+getfil return fd 7
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+ Control:Finished receiving signal from rank =           3
+Writing file shot:        6
+
+getfil for file raytr_inst00000006                                                              
+getfil entry available fd: 35
+getfil exit available fd: 34
+getfil return fd 7
+frefil exit available fd: 35
+
+Finished sending signal to master, rank = 3
+Process  3 Tracing rays for source:  9 id #        9
+
+Tracing rays for instrument:   9 id #     9
+Instrument at (  26.000,   0.000,   1.544)
+Instrument in layer  0   0.000 km above interface  1 at    1.544
+Interpolated velocity at instrument:  1.574 km/s
+
+
+getfil for file inversion_fake/SE01_long_true_1_0.ray
+getfil entry available fd: 34
+getfil exit available fd: 33
+getfil return fd 8
+
+frefil: freeing descriptor 8
+frefil entry available fd: 33
+frefil exit available fd: 34
+
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+frefil exit available fd: 35
+
+ Number of shots        3302
+ Number of ray paths         661
+ Number of multibranch picks:            0
+Read Picks Time =  0.427 seconds.
+
+ Restricting ray coverage for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size          210
+ Call loop star for source
+ Tracing back to surface
+ Reset_model: Active nodes in grid+interface:         7392
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          358
+ Number of ray paths         661
+ Number of multibranch picks:            0
+Read Picks Time =  0.438 seconds.
+
+ Restricting ray coverage for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+WARNING init_point_source: Source layer 1 is below interface  1
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size            0
+ Tracing back to surface
+Reset_model:      176 nodes of      176 potentially active interface nodes not timed (100.0%)
+ Reset_model: Active nodes in grid+interface:         7216
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          187
+ Number of ray paths         661
+ Number of multibranch picks:            0
+Read Picks Time =  0.424 seconds.
+
+ Restricting ray coverage for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size          195
+ Call loop star for source
+ Tracing back to surface
+ Reset_model: Active nodes in grid+interface:         7392
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          353
+ Number of rays traced:          661
+
+getfil for file raytr_inst00000007
+getfil entry available fd: 35
+getfil exit available fd: 34
+getfil return fd 7
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+frefil exit available fd: 35
+
+Finished sending signal to master, rank = 2
+ Control:Finished receiving signal from rank =           2
+Writing file shot:        7
+
+getfil for file raytr_inst00000007                                                              
+getfil entry available fd: 35
+Process  2 Tracing rays for source: 10 id #       10
+
+Tracing rays for instrument:  10 id #    10
+Instrument at (  25.000,   0.000,   1.482)
+Instrument in layer  1   0.000 km below interface  1 at    1.482
+Interpolated velocity at instrument:  1.592 km/s
+
+getfil exit available fd: 34
+getfil return fd 7
+
+getfil for file inversion_fake/SE01_long_true_1_0.ray
+getfil entry available fd: 34
+getfil exit available fd: 33
+getfil return fd 8
+
+frefil: freeing descriptor 8
+frefil entry available fd: 33
+frefil exit available fd: 34
+
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+frefil exit available fd: 35
+
+ Number of shots        3302
+ Number of rays traced:          661
+
+getfil for file raytr_inst00000008
+getfil entry available fd: 35
+getfil exit available fd: 34
+getfil return fd 7
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+frefil exit available fd: 35
+
+Finished sending signal to master, rank = 1
+ Control:Finished receiving signal from rank =           1
+Writing file shot:        8
+
+Process  1 Tracing rays for source: 11 id #       11
+
+Tracing rays for instrument:  11 id #    11
+getfil for file raytr_inst00000008                                                              
+getfil entry available fd: 35
+getfil exit available fd: 34
+getfil return fd 7
+Instrument at (  24.000,   0.000,   1.347)
+Instrument in layer  0   0.000 km above interface  1 at    1.347
+Interpolated velocity at instrument:  1.582 km/s
+
+
+getfil for file inversion_fake/SE01_long_true_1_0.ray
+getfil entry available fd: 34
+getfil exit available fd: 33
+getfil return fd 8
+
+frefil: freeing descriptor 8
+frefil entry available fd: 33
+frefil exit available fd: 34
+
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+frefil exit available fd: 35
+
+ Number of rays traced:          661
+
+getfil for file raytr_inst00000009
+getfil entry available fd: 35
+getfil exit available fd: 34
+getfil return fd 7
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+ Control:Finished receiving signal from rank =           3
+Writing file shot:        9
+
+getfil for file raytr_inst00000009                                                              
+getfil entry available fd: 35
+getfil exit available fd: 34
+getfil return fd 7
+frefil exit available fd: 35
+
+Finished sending signal to master, rank = 3
+Process  3 Tracing rays for source: 12 id #       12
+
+Tracing rays for instrument:  12 id #    12
+Instrument at (  23.000,   0.000,   1.053)
+Instrument in layer  0   0.000 km above interface  1 at    1.053
+Interpolated velocity at instrument:  1.592 km/s
+
+
+getfil for file inversion_fake/SE01_long_true_1_0.ray
+getfil entry available fd: 34
+getfil exit available fd: 33
+getfil return fd 8
+
+frefil: freeing descriptor 8
+frefil entry available fd: 33
+frefil exit available fd: 34
+
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+ Number of shots        3302
+frefil exit available fd: 35
+
+ Number of shots        3302
+ Number of ray paths         661
+ Number of multibranch picks:            0
+Read Picks Time =  0.427 seconds.
+
+ Restricting ray coverage for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+WARNING init_point_source: Source layer 1 is below interface  1
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size            0
+ Tracing back to surface
+Reset_model:      176 nodes of      176 potentially active interface nodes not timed (100.0%)
+ Reset_model: Active nodes in grid+interface:         7216
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          191
+ Number of ray paths         661
+ Number of multibranch picks:            0
+Read Picks Time =  0.427 seconds.
+
+ Restricting ray coverage for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size          182
+ Call loop star for source
+ Number of rays traced:          661
+
+getfil for file raytr_inst00000010
+getfil entry available fd: 35
+getfil exit available fd: 34
+getfil return fd 7
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+ Control:Finished receiving signal from rank =           2
+Writing file shot:       10
+
+getfil for file raytr_inst00000010                                                              
+getfil entry available fd: 35
+getfil exit available fd: 34
+getfil return fd 7
+frefil exit available fd: 35
+
+Finished sending signal to master, rank = 2
+Process  2 Tracing rays for source: 13 id #       13
+
+Tracing rays for instrument:  13 id #    13
+Instrument at (  22.000,   0.000,   0.785)
+Instrument in layer  0   0.000 km above interface  1 at    0.785
+Interpolated velocity at instrument:  1.576 km/s
+
+
+getfil for file inversion_fake/SE01_long_true_1_0.ray
+getfil entry available fd: 34
+getfil exit available fd: 33
+getfil return fd 8
+
+frefil: freeing descriptor 8
+frefil entry available fd: 33
+frefil exit available fd: 34
+
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+frefil exit available fd: 35
+
+ Tracing back to surface
+ Reset_model: Active nodes in grid+interface:         7392
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          364
+ Number of shots        3302
+ Number of ray paths         661
+ Number of multibranch picks:            0
+Read Picks Time =  0.432 seconds.
+
+ Restricting ray coverage for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size          167
+ Call loop star for source
+ Tracing back to surface
+ Reset_model: Active nodes in grid+interface:         7392
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          359
+ Number of rays traced:          661
+
+getfil for file raytr_inst00000011
+getfil entry available fd: 35
+getfil exit available fd: 34
+getfil return fd 7
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+frefil exit available fd: 35
+
+ Control:Finished receiving signal from rank =           1
+Writing file shot:       11
+Finished sending signal to master, rank = 1
+Process  1 Tracing rays for source: 14 id #       14
+
+Tracing rays for instrument:  14 id #    14
+
+getfil for file raytr_inst00000011                                                              
+getfil entry available fd: 35
+getfil exit available fd: 34
+getfil return fd 7
+Instrument at (  21.000,   0.000,   0.975)
+Instrument in layer  0   0.000 km above interface  1 at    0.975
+Interpolated velocity at instrument:  1.571 km/s
+
+
+getfil for file inversion_fake/SE01_long_true_1_0.ray
+getfil entry available fd: 34
+getfil exit available fd: 33
+getfil return fd 8
+
+frefil: freeing descriptor 8
+frefil entry available fd: 33
+frefil exit available fd: 34
+
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+frefil exit available fd: 35
+
+ Number of shots        3302
+ Number of rays traced:          661
+
+getfil for file raytr_inst00000012
+getfil entry available fd: 35
+getfil exit available fd: 34
+getfil return fd 7
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+frefil exit available fd: 35
+
+Finished sending signal to master, rank = 3
+ Control:Finished receiving signal from rank =           3
+Writing file shot:       12
+
+getfil for file raytr_inst00000012                                                              
+getfil entry available fd: 35
+Process  3 Tracing rays for source: 15 id #       15
+
+Tracing rays for instrument:  15 id #    15
+getfil exit available fd: 34
+getfil return fd 7
+Instrument at (  20.000,   0.000,   0.971)
+Instrument in layer  1   0.000 km below interface  1 at    0.971
+Interpolated velocity at instrument:  1.583 km/s
+
+
+getfil for file inversion_fake/SE01_long_true_1_0.ray
+getfil entry available fd: 34
+getfil exit available fd: 33
+getfil return fd 8
+
+frefil: freeing descriptor 8
+frefil entry available fd: 33
+frefil exit available fd: 34
+
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+frefil exit available fd: 35
+
+ Number of shots        3302
+ Number of ray paths         661
+ Number of multibranch picks:            0
+Read Picks Time =  0.423 seconds.
+
+ Restricting ray coverage for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size          181
+ Call loop star for source
+ Tracing back to surface
+ Reset_model: Active nodes in grid+interface:         7392
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          325
+ Number of rays traced:          661
+
+getfil for file raytr_inst00000013
+getfil entry available fd: 35
+getfil exit available fd: 34
+getfil return fd 7
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+frefil exit available fd: 35
+
+ Control:Finished receiving signal from rank =           2
+Writing file shot:       13
+Finished sending signal to master, rank = 2
+Process  2 Tracing rays for source: 16 id #       16
+
+Tracing rays for instrument:  16 id #    16
+
+getfil for file raytr_inst00000013                                                              
+getfil entry available fd: 35
+getfil exit available fd: 34
+getfil return fd 7
+Instrument at (  19.000,   0.000,   1.103)
+Instrument in layer  1   0.000 km below interface  1 at    1.103
+Interpolated velocity at instrument:  1.581 km/s
+
+
+getfil for file inversion_fake/SE01_long_true_1_0.ray
+getfil entry available fd: 34
+getfil exit available fd: 33
+getfil return fd 8
+
+frefil: freeing descriptor 8
+frefil entry available fd: 33
+frefil exit available fd: 34
+
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+frefil exit available fd: 35
+
+ Number of shots        3302
+ Number of ray paths         661
+ Number of multibranch picks:            0
+Read Picks Time =  0.432 seconds.
+
+ Restricting ray coverage for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size          184
+ Call loop star for source
+ Tracing back to surface
+ Reset_model: Active nodes in grid+interface:         7392
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          373
+ Number of ray paths         661
+ Number of multibranch picks:            0
+Read Picks Time =  0.434 seconds.
+
+ Restricting ray coverage for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+WARNING init_point_source: Source layer 1 is below interface  1
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size            0
+ Tracing back to surface
+Reset_model:      176 nodes of      176 potentially active interface nodes not timed (100.0%)
+ Reset_model: Active nodes in grid+interface:         7216
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          182
+ Number of rays traced:          661
+
+getfil for file raytr_inst00000014
+getfil entry available fd: 35
+getfil exit available fd: 34
+getfil return fd 7
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+frefil exit available fd: 35
+
+Finished sending signal to master, rank = 1
+ Control:Finished receiving signal from rank =           1
+Writing file shot:       14
+
+Process  1 Tracing rays for source: 17 id #       17
+
+Tracing rays for instrument:  17 id #    17
+getfil for file raytr_inst00000014                                                              
+getfil entry available fd: 35
+Instrument at (  18.000,   0.000,   1.030)
+Instrument in layer  1   0.000 km below interface  1 at    1.030
+Interpolated velocity at instrument:  1.578 km/s
+
+getfil exit available fd: 34
+getfil return fd 7
+
+getfil for file inversion_fake/SE01_long_true_1_0.ray
+getfil entry available fd: 34
+getfil exit available fd: 33
+getfil return fd 8
+
+frefil: freeing descriptor 8
+frefil entry available fd: 33
+frefil exit available fd: 34
+
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+ Number of rays traced:          661
+
+getfil for file raytr_inst00000015
+getfil entry available fd: 35
+getfil exit available fd: 34
+getfil return fd 7
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+frefil exit available fd: 35
+
+Finished sending signal to master, rank = 3
+frefil exit available fd: 35
+
+ Control:Finished receiving signal from rank =           3
+Writing file shot:       15
+Process  3 Tracing rays for source: 18 id #       18
+
+Tracing rays for instrument:  18 id #    18
+
+getfil for file raytr_inst00000015                                                              
+getfil entry available fd: 35
+getfil exit available fd: 34
+getfil return fd 7
+Instrument at (  17.000,   0.000,   0.946)
+Instrument in layer  1   0.000 km below interface  1 at    0.946
+Interpolated velocity at instrument:  1.573 km/s
+
+
+getfil for file inversion_fake/SE01_long_true_1_0.ray
+getfil entry available fd: 34
+getfil exit available fd: 33
+getfil return fd 8
+
+frefil: freeing descriptor 8
+frefil entry available fd: 33
+frefil exit available fd: 34
+
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+frefil exit available fd: 35
+
+ Number of shots        3302
+ Number of shots        3302
+ Number of ray paths         661
+ Number of multibranch picks:            0
+Read Picks Time =  0.429 seconds.
+
+ Restricting ray coverage for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+WARNING init_point_source: Source layer 1 is below interface  1
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size            0
+ Tracing back to surface
+Reset_model:      176 nodes of      176 potentially active interface nodes not timed (100.0%)
+ Reset_model: Active nodes in grid+interface:         7216
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          197
+ Number of rays traced:          661
+
+getfil for file raytr_inst00000016
+getfil entry available fd: 35
+getfil exit available fd: 34
+getfil return fd 7
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+ Control:Finished receiving signal from rank =           2
+Writing file shot:       16
+frefil exit available fd: 35
+
+Finished sending signal to master, rank = 2
+Process  2 Tracing rays for source: 19 id #       19
+
+Tracing rays for instrument:  19 id #    19
+
+getfil for file raytr_inst00000016                                                              
+getfil entry available fd: 35
+getfil exit available fd: 34
+getfil return fd 7
+Instrument at (  16.000,   0.000,   0.931)
+Instrument in layer  0   0.000 km above interface  1 at    0.931
+Interpolated velocity at instrument:  1.576 km/s
+
+
+getfil for file inversion_fake/SE01_long_true_1_0.ray
+getfil entry available fd: 34
+getfil exit available fd: 33
+getfil return fd 8
+
+frefil: freeing descriptor 8
+frefil entry available fd: 33
+frefil exit available fd: 34
+
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+frefil exit available fd: 35
+
+ Number of shots        3302
+ Number of ray paths         661
+ Number of multibranch picks:            0
+Read Picks Time =  0.429 seconds.
+
+ Restricting ray coverage for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+WARNING init_point_source: Source layer 1 is below interface  1
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size            0
+ Tracing back to surface
+Reset_model:      176 nodes of      176 potentially active interface nodes not timed (100.0%)
+ Reset_model: Active nodes in grid+interface:         7216
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          164
+ Number of ray paths         661
+ Number of multibranch picks:            0
+Read Picks Time =  0.437 seconds.
+
+ Restricting ray coverage for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+WARNING init_point_source: Source layer 1 is below interface  1
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size            0
+ Tracing back to surface
+Reset_model:      176 nodes of      176 potentially active interface nodes not timed (100.0%)
+ Reset_model: Active nodes in grid+interface:         7216
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          178
+ Number of rays traced:          661
+
+getfil for file raytr_inst00000018
+getfil entry available fd: 35
+getfil exit available fd: 34
+getfil return fd 7
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+frefil exit available fd: 35
+
+ Control:Finished receiving signal from rank =           3
+Finished sending signal to master, rank = 3
+Process  3 Tracing rays for source: 20 id #       20
+
+Tracing rays for instrument:  20 id #    20
+Instrument at (  15.000,   0.000,   0.937)
+Instrument in layer  0   0.000 km above interface  1 at    0.937
+Interpolated velocity at instrument:  1.575 km/s
+
+ Number of rays traced:          661
+
+getfil for file raytr_inst00000017
+getfil entry available fd: 35
+getfil exit available fd: 34
+getfil return fd 7
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+frefil exit available fd: 35
+
+ Control:Finished receiving signal from rank =           1
+Writing file shot:       17
+Finished sending signal to master, rank = 1
+Process  1 Tracing rays for source: 21 id #       21
+
+Tracing rays for instrument:  21 id #    21
+
+getfil for file raytr_inst00000017                                                              
+getfil entry available fd: 35
+Instrument at (  14.000,   0.000,   1.080)
+Instrument in layer  1   0.000 km below interface  1 at    1.080
+Interpolated velocity at instrument:  1.569 km/s
+
+getfil exit available fd: 34
+getfil return fd 7
+
+getfil for file inversion_fake/SE01_long_true_1_0.ray
+getfil entry available fd: 34
+getfil exit available fd: 33
+getfil return fd 8
+
+frefil: freeing descriptor 8
+frefil entry available fd: 33
+frefil exit available fd: 34
+
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+ Number of shots        3302
+frefil exit available fd: 35
+
+Writing file shot:       18
+
+getfil for file raytr_inst00000018                                                              
+getfil entry available fd: 35
+getfil exit available fd: 34
+getfil return fd 7
+
+getfil for file inversion_fake/SE01_long_true_1_0.ray
+getfil entry available fd: 34
+getfil exit available fd: 33
+getfil return fd 8
+
+frefil: freeing descriptor 8
+frefil entry available fd: 33
+frefil exit available fd: 34
+
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+frefil exit available fd: 35
+
+ Number of shots        3302
+ Number of ray paths         661
+ Number of multibranch picks:            0
+Read Picks Time =  0.434 seconds.
+
+ Restricting ray coverage for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size          201
+ Call loop star for source
+ Tracing back to surface
+ Reset_model: Active nodes in grid+interface:         7392
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          344
+ Number of rays traced:          661
+
+getfil for file raytr_inst00000019
+getfil entry available fd: 35
+getfil exit available fd: 34
+getfil return fd 7
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+frefil exit available fd: 35
+
+Finished sending signal to master, rank = 2
+ Control:Finished receiving signal from rank =           2
+Writing file shot:       19
+Process  2 Tracing rays for source: 22 id #       22
+
+Tracing rays for instrument:  22 id #    22
+
+getfil for file raytr_inst00000019                                                              
+getfil entry available fd: 35
+getfil exit available fd: 34
+getfil return fd 7
+Instrument at (  13.000,   0.000,   1.289)
+Instrument in layer  1   0.000 km below interface  1 at    1.289
+Interpolated velocity at instrument:  1.569 km/s
+
+
+getfil for file inversion_fake/SE01_long_true_1_0.ray
+getfil entry available fd: 34
+getfil exit available fd: 33
+getfil return fd 8
+
+frefil: freeing descriptor 8
+frefil entry available fd: 33
+frefil exit available fd: 34
+
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+frefil exit available fd: 35
+
+ Number of shots        3302
+ Number of ray paths         661
+ Number of multibranch picks:            0
+Read Picks Time =  0.426 seconds.
+
+ Restricting ray coverage for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size          211
+ Call loop star for source
+ Tracing back to surface
+ Reset_model: Active nodes in grid+interface:         7392
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          335
+ Number of ray paths         661
+ Number of multibranch picks:            0
+Read Picks Time =  0.443 seconds.
+
+ Restricting ray coverage for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+WARNING init_point_source: Source layer 1 is below interface  1
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size            0
+ Tracing back to surface
+Reset_model:      176 nodes of      176 potentially active interface nodes not timed (100.0%)
+ Reset_model: Active nodes in grid+interface:         7216
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          176
+ Number of rays traced:          661
+
+getfil for file raytr_inst00000020
+getfil entry available fd: 35
+getfil exit available fd: 34
+getfil return fd 7
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+frefil exit available fd: 35
+
+Finished sending signal to master, rank = 3
+ Control:Finished receiving signal from rank =           3
+Writing file shot:       20
+Process  3 Tracing rays for source: 23 id #       23
+
+Tracing rays for instrument:  23 id #    23
+
+getfil for file raytr_inst00000020                                                              
+getfil entry available fd: 35
+getfil exit available fd: 34
+getfil return fd 7
+Instrument at (  12.000,   0.000,   1.406)
+Instrument in layer  0   0.000 km above interface  1 at    1.406
+Interpolated velocity at instrument:  1.619 km/s
+
+
+getfil for file inversion_fake/SE01_long_true_1_0.ray
+getfil entry available fd: 34
+getfil exit available fd: 33
+getfil return fd 8
+
+frefil: freeing descriptor 8
+frefil entry available fd: 33
+frefil exit available fd: 34
+
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+frefil exit available fd: 35
+
+ Number of shots        3302
+ Number of rays traced:          661
+
+getfil for file raytr_inst00000021
+getfil entry available fd: 35
+getfil exit available fd: 34
+getfil return fd 7
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+frefil exit available fd: 35
+
+Finished sending signal to master, rank = 1
+ Control:Finished receiving signal from rank =           1
+Writing file shot:       21
+
+getfil for file raytr_inst00000021                                                              
+Process  1 Tracing rays for source: 24 id #       24
+
+Tracing rays for instrument:  24 id #    24
+getfil entry available fd: 35
+getfil exit available fd: 34
+getfil return fd 7
+Instrument at (  11.000,   0.000,   1.406)
+Instrument in layer  0   0.000 km above interface  1 at    1.406
+Interpolated velocity at instrument:  1.575 km/s
+
+
+getfil for file inversion_fake/SE01_long_true_1_0.ray
+getfil entry available fd: 34
+getfil exit available fd: 33
+getfil return fd 8
+
+frefil: freeing descriptor 8
+frefil entry available fd: 33
+frefil exit available fd: 34
+
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+frefil exit available fd: 35
+
+ Number of shots        3302
+ Number of ray paths         661
+ Number of multibranch picks:            0
+Read Picks Time =  0.433 seconds.
+
+ Restricting ray coverage for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+WARNING init_point_source: Source layer 1 is below interface  1
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size            0
+ Tracing back to surface
+Reset_model:      176 nodes of      176 potentially active interface nodes not timed (100.0%)
+ Reset_model: Active nodes in grid+interface:         7216
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          189
+ Number of rays traced:          661
+
+getfil for file raytr_inst00000022
+getfil entry available fd: 35
+getfil exit available fd: 34
+getfil return fd 7
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+ Control:Finished receiving signal from rank =           2
+Writing file shot:       22
+
+getfil for file raytr_inst00000022                                                              
+getfil entry available fd: 35
+getfil exit available fd: 34
+getfil return fd 7
+frefil exit available fd: 35
+
+Finished sending signal to master, rank = 2
+Process  2 Tracing rays for source: 25 id #       25
+
+Tracing rays for instrument:  25 id #    25
+Instrument at (  10.000,   0.000,   1.408)
+Instrument in layer  0   0.000 km above interface  1 at    1.408
+Interpolated velocity at instrument:  1.576 km/s
+
+
+getfil for file inversion_fake/SE01_long_true_1_0.ray
+getfil entry available fd: 34
+getfil exit available fd: 33
+getfil return fd 8
+
+frefil: freeing descriptor 8
+frefil entry available fd: 33
+frefil exit available fd: 34
+
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+frefil exit available fd: 35
+
+ Number of shots        3302
+ Number of ray paths         661
+ Number of multibranch picks:            0
+Read Picks Time =  0.443 seconds.
+
+ Restricting ray coverage for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size          190
+ Call loop star for source
+ Tracing back to surface
+ Reset_model: Active nodes in grid+interface:         7392
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          362
+ Number of ray paths         661
+ Number of multibranch picks:            0
+Read Picks Time =  0.450 seconds.
+
+ Restricting ray coverage for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size          207
+ Call loop star for source
+ Tracing back to surface
+ Reset_model: Active nodes in grid+interface:         7392
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          349
+ Number of rays traced:          661
+
+getfil for file raytr_inst00000023
+getfil entry available fd: 35
+getfil exit available fd: 34
+getfil return fd 7
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+frefil exit available fd: 35
+
+ Control:Finished receiving signal from rank =           3
+Writing file shot:       23
+Finished sending signal to master, rank = 3
+Process  3 Tracing rays for source: 26 id #       26
+
+Tracing rays for instrument:  26 id #    26
+
+getfil for file raytr_inst00000023                                                              
+getfil entry available fd: 35
+Instrument at (   9.000,   0.000,   1.449)
+Instrument in layer  0   0.000 km above interface  1 at    1.449
+Interpolated velocity at instrument:  1.578 km/s
+getfil exit available fd: 34
+getfil return fd 7
+
+
+getfil for file inversion_fake/SE01_long_true_1_0.ray
+getfil entry available fd: 34
+getfil exit available fd: 33
+getfil return fd 8
+
+frefil: freeing descriptor 8
+frefil entry available fd: 33
+frefil exit available fd: 34
+
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+frefil exit available fd: 35
+
+ Number of shots        3302
+ Number of rays traced:          661
+
+getfil for file raytr_inst00000024
+getfil entry available fd: 35
+getfil exit available fd: 34
+getfil return fd 7
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+frefil exit available fd: 35
+
+Finished sending signal to master, rank = 1
+ Control:Finished receiving signal from rank =           1
+Writing file shot:       24
+Process  1 Tracing rays for source: 27 id #       27
+
+Tracing rays for instrument:  27 id #    27
+
+getfil for file raytr_inst00000024                                                              
+getfil entry available fd: 35
+Instrument at (   8.000,   0.000,   1.506)
+Instrument in layer  0   0.000 km above interface  1 at    1.506
+Interpolated velocity at instrument:  1.585 km/s
+
+getfil exit available fd: 34
+getfil return fd 7
+
+getfil for file inversion_fake/SE01_long_true_1_0.ray
+getfil entry available fd: 34
+getfil exit available fd: 33
+getfil return fd 8
+
+frefil: freeing descriptor 8
+frefil entry available fd: 33
+frefil exit available fd: 34
+
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+frefil exit available fd: 35
+
+ Number of shots        3302
+ Number of ray paths         661
+ Number of multibranch picks:            0
+Read Picks Time =  0.444 seconds.
+
+ Restricting ray coverage for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size          205
+ Call loop star for source
+ Tracing back to surface
+ Reset_model: Active nodes in grid+interface:         7392
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          346
+ Number of rays traced:          661
+
+getfil for file raytr_inst00000025
+getfil entry available fd: 35
+getfil exit available fd: 34
+getfil return fd 7
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+frefil exit available fd: 35
+
+ Control:Finished receiving signal from rank =           2
+Writing file shot:       25
+Finished sending signal to master, rank = 2
+Process  2 Tracing rays for source: 28 id #       28
+
+Tracing rays for instrument:  28 id #    28
+
+getfil for file raytr_inst00000025                                                              
+getfil entry available fd: 35
+Instrument at (   7.000,   0.000,   1.531)
+Instrument in layer  0   0.000 km above interface  1 at    1.531
+Interpolated velocity at instrument:  1.586 km/s
+
+getfil exit available fd: 34
+getfil return fd 7
+
+getfil for file inversion_fake/SE01_long_true_1_0.ray
+getfil entry available fd: 34
+getfil exit available fd: 33
+getfil return fd 8
+
+frefil: freeing descriptor 8
+frefil entry available fd: 33
+frefil exit available fd: 34
+
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+frefil exit available fd: 35
+
+ Number of shots        3302
+ Number of ray paths         661
+ Number of multibranch picks:            0
+Read Picks Time =  0.440 seconds.
+
+ Restricting ray coverage for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size          210
+ Call loop star for source
+ Tracing back to surface
+ Reset_model: Active nodes in grid+interface:         7392
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          341
+ Number of ray paths         661
+ Number of multibranch picks:            0
+Read Picks Time =  0.423 seconds.
+
+ Restricting ray coverage for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size          186
+ Call loop star for source
+ Tracing back to surface
+ Reset_model: Active nodes in grid+interface:         7392
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          355
+ Number of rays traced:          661
+
+getfil for file raytr_inst00000026
+getfil entry available fd: 35
+getfil exit available fd: 34
+getfil return fd 7
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+frefil exit available fd: 35
+
+Finished sending signal to master, rank = 3
+ Control:Finished receiving signal from rank =           3
+Writing file shot:       26
+Process  3 Tracing rays for source: 29 id #       29
+
+Tracing rays for instrument:  29 id #    29
+
+getfil for file raytr_inst00000026                                                              
+getfil entry available fd: 35
+Instrument at (   6.000,   0.000,   1.531)
+Instrument in layer  0   0.000 km above interface  1 at    1.531
+Interpolated velocity at instrument:  1.574 km/s
+
+getfil exit available fd: 34
+getfil return fd 7
+
+getfil for file inversion_fake/SE01_long_true_1_0.ray
+getfil entry available fd: 34
+getfil exit available fd: 33
+getfil return fd 8
+
+frefil: freeing descriptor 8
+frefil entry available fd: 33
+frefil exit available fd: 34
+
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+frefil exit available fd: 35
+
+ Number of rays traced:          661
+
+getfil for file raytr_inst00000027
+getfil entry available fd: 35
+getfil exit available fd: 34
+getfil return fd 7
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+frefil exit available fd: 35
+
+Finished sending signal to master, rank = 1
+ Control:Finished receiving signal from rank =           1
+Writing file shot:       27
+
+getfil for file raytr_inst00000027                                                              
+Process  1 Tracing rays for source: 30 id #       30
+
+Tracing rays for instrument:  30 id #    30
+getfil entry available fd: 35
+getfil exit available fd: 34
+getfil return fd 7
+Instrument at (   5.000,   0.000,   1.514)
+Instrument in layer  0   0.000 km above interface  1 at    1.514
+Interpolated velocity at instrument:  1.576 km/s
+
+
+getfil for file inversion_fake/SE01_long_true_1_0.ray
+getfil entry available fd: 34
+getfil exit available fd: 33
+getfil return fd 8
+
+frefil: freeing descriptor 8
+frefil entry available fd: 33
+frefil exit available fd: 34
+
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+ Number of shots        3302
+frefil exit available fd: 35
+
+ Number of shots        3302
+ Number of ray paths         661
+ Number of multibranch picks:            0
+Read Picks Time =  0.436 seconds.
+
+ Restricting ray coverage for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size          204
+ Call loop star for source
+ Tracing back to surface
+ Reset_model: Active nodes in grid+interface:         7392
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          350
+ Number of rays traced:          661
+
+getfil for file raytr_inst00000028
+getfil entry available fd: 35
+getfil exit available fd: 34
+getfil return fd 7
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+frefil exit available fd: 35
+
+Finished sending signal to master, rank = 2
+ Control:Finished receiving signal from rank =           2
+Writing file shot:       28
+Process  2 Tracing rays for source: 31 id #       31
+
+Tracing rays for instrument:  31 id #    31
+
+getfil for file raytr_inst00000028                                                              
+getfil entry available fd: 35
+Instrument at (   4.000,   0.000,   1.473)
+Instrument in layer  0   0.000 km above interface  1 at    1.473
+getfil exit available fd: 34
+getfil return fd 7
+Interpolated velocity at instrument:  1.576 km/s
+
+
+getfil for file inversion_fake/SE01_long_true_1_0.ray
+getfil entry available fd: 34
+getfil exit available fd: 33
+getfil return fd 8
+
+frefil: freeing descriptor 8
+frefil entry available fd: 33
+frefil exit available fd: 34
+
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+frefil exit available fd: 35
+
+ Number of shots        3302
+ Number of ray paths         661
+ Number of multibranch picks:            0
+Read Picks Time =  0.428 seconds.
+
+ Restricting ray coverage for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size          206
+ Call loop star for source
+ Tracing back to surface
+ Reset_model: Active nodes in grid+interface:         7392
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          349
+ Number of ray paths         661
+ Number of multibranch picks:            0
+Read Picks Time =  0.440 seconds.
+
+ Restricting ray coverage for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size          192
+ Call loop star for source
+ Tracing back to surface
+ Reset_model: Active nodes in grid+interface:         7392
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          354
+ Number of rays traced:          661
+
+getfil for file raytr_inst00000029
+getfil entry available fd: 35
+getfil exit available fd: 34
+getfil return fd 7
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+frefil exit available fd: 35
+
+ Control:Finished receiving signal from rank =           3
+Writing file shot:       29
+Finished sending signal to master, rank = 3
+Process  3 Tracing rays for source: 32 id #       32
+
+Tracing rays for instrument:  32 id #    32
+
+getfil for file raytr_inst00000029                                                              
+getfil entry available fd: 35
+Instrument at (   3.000,   0.000,   1.422)
+Instrument in layer  0   0.000 km above interface  1 at    1.422
+getfil exit available fd: 34
+getfil return fd 7
+Interpolated velocity at instrument:  1.571 km/s
+
+
+getfil for file inversion_fake/SE01_long_true_1_0.ray
+getfil entry available fd: 34
+getfil exit available fd: 33
+getfil return fd 8
+
+frefil: freeing descriptor 8
+frefil entry available fd: 33
+frefil exit available fd: 34
+
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+frefil exit available fd: 35
+
+ Number of shots        3302
+ Number of rays traced:          661
+
+getfil for file raytr_inst00000030
+getfil entry available fd: 35
+getfil exit available fd: 34
+getfil return fd 7
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+frefil exit available fd: 35
+
+Finished sending signal to master, rank = 1
+ Control:Finished receiving signal from rank =           1
+Writing file shot:       30
+
+getfil for file raytr_inst00000030                                                              
+getfil entry available fd: 35
+getfil exit available fd: 34
+getfil return fd 7
+Process  1 Tracing rays for source: 33 id #       33
+
+Tracing rays for instrument:  33 id #    33
+Instrument at (   2.000,   0.000,   1.392)
+Instrument in layer  0   0.000 km above interface  1 at    1.392
+Interpolated velocity at instrument:  1.595 km/s
+
+
+getfil for file inversion_fake/SE01_long_true_1_0.ray
+getfil entry available fd: 34
+getfil exit available fd: 33
+getfil return fd 8
+
+frefil: freeing descriptor 8
+frefil entry available fd: 33
+frefil exit available fd: 34
+
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+frefil exit available fd: 35
+
+ Number of shots        3302
+ Number of ray paths         661
+ Number of multibranch picks:            0
+Read Picks Time =  0.437 seconds.
+
+ Restricting ray coverage for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size          213
+ Call loop star for source
+ Tracing back to surface
+ Reset_model: Active nodes in grid+interface:         7392
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          360
+ Number of rays traced:          661
+
+getfil for file raytr_inst00000031
+getfil entry available fd: 35
+getfil exit available fd: 34
+getfil return fd 7
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+frefil exit available fd: 35
+
+Finished sending signal to master, rank = 2
+ Control:Finished receiving signal from rank =           2
+Writing file shot:       31
+Process  2 Tracing rays for source: 34 id #       34
+
+Tracing rays for instrument:  34 id #    34
+
+getfil for file raytr_inst00000031                                                              
+getfil entry available fd: 35
+getfil exit available fd: 34
+getfil return fd 7
+Instrument at (   1.000,   0.000,   1.370)
+Instrument in layer  1   0.000 km below interface  1 at    1.370
+Interpolated velocity at instrument:  1.570 km/s
+
+
+getfil for file inversion_fake/SE01_long_true_1_0.ray
+getfil entry available fd: 34
+getfil exit available fd: 33
+getfil return fd 8
+
+frefil: freeing descriptor 8
+frefil entry available fd: 33
+frefil exit available fd: 34
+
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+frefil exit available fd: 35
+
+ Number of shots        3302
+ Number of ray paths         661
+ Number of multibranch picks:            0
+Read Picks Time =  0.432 seconds.
+
+ Restricting ray coverage for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size          190
+ Call loop star for source
+ Tracing back to surface
+ Reset_model: Active nodes in grid+interface:         7392
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          351
+ Number of ray paths         661
+ Number of multibranch picks:            0
+Read Picks Time =  0.432 seconds.
+
+ Restricting ray coverage for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size          209
+ Call loop star for source
+ Tracing back to surface
+ Reset_model: Active nodes in grid+interface:         7392
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          358
+ Number of rays traced:          661
+
+getfil for file raytr_inst00000032
+getfil entry available fd: 35
+getfil exit available fd: 34
+getfil return fd 7
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+frefil exit available fd: 35
+
+Finished sending signal to master, rank = 3
+ Number of rays traced:          661
+
+getfil for file raytr_inst00000033
+getfil entry available fd: 35
+getfil exit available fd: 34
+getfil return fd 7
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+frefil exit available fd: 35
+
+Finished sending signal to master, rank = 1
+ Number of ray paths         661
+ Number of multibranch picks:            0
+Read Picks Time =  0.425 seconds.
+
+ Restricting ray coverage for interface  1
+ Extending Ray Coverage
+ New Ray Coverage
+ Initial # of active columns:           167
+Extension width (km): x: 2.0 y:  2.0
+ Active columns after extension:          176  out of          176
+
+ Initializing model for interface  1
+ Init_model: number of active nodes in grid:         2458
+ Init_model: Active nodes in grid+interface:         2634
+WARNING init_point_source: Source layer 1 is below interface  1
+
+ Propagate traveltime from source down to interface  1
+ Initial heap size            0
+ Tracing back to surface
+Reset_model:      176 nodes of      176 potentially active interface nodes not timed (100.0%)
+ Reset_model: Active nodes in grid+interface:         7216
+
+ Propagate ray group            1  back to the surface 
+ Initial heap size          147
+ Number of rays traced:          661
+
+getfil for file raytr_inst00000034
+getfil entry available fd: 35
+getfil exit available fd: 34
+getfil return fd 7
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+frefil exit available fd: 35
+
+Finished sending signal to master, rank = 2
+Writing file shot:       32
+
+getfil for file raytr_inst00000032                                                              
+getfil entry available fd: 35
+getfil exit available fd: 34
+getfil return fd 7
+
+getfil for file inversion_fake/SE01_long_true_1_0.ray
+getfil entry available fd: 34
+getfil exit available fd: 33
+getfil return fd 8
+
+frefil: freeing descriptor 8
+frefil entry available fd: 33
+frefil exit available fd: 34
+
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+frefil exit available fd: 35
+
+Writing file shot:       33
+
+getfil for file raytr_inst00000033                                                              
+getfil entry available fd: 35
+getfil exit available fd: 34
+getfil return fd 7
+
+getfil for file inversion_fake/SE01_long_true_1_0.ray
+getfil entry available fd: 34
+getfil exit available fd: 33
+getfil return fd 8
+
+frefil: freeing descriptor 8
+frefil entry available fd: 33
+frefil exit available fd: 34
+
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+frefil exit available fd: 35
+
+Writing file shot:       34
+
+getfil for file raytr_inst00000034                                                              
+getfil entry available fd: 35
+getfil exit available fd: 34
+getfil return fd 7
+
+getfil for file inversion_fake/SE01_long_true_1_0.ray
+getfil entry available fd: 34
+getfil exit available fd: 33
+getfil return fd 8
+
+frefil: freeing descriptor 8
+frefil entry available fd: 33
+frefil exit available fd: 34
+
+
+frefil: freeing descriptor 7
+frefil entry available fd: 34
+frefil exit available fd: 35
+
+ About to call MPI_Finalize in Main: rank =            0
+ About to call MPI_Finalize in Main: rank =            1
+ About to call MPI_Finalize in Main: rank =            2
+ About to call MPI_Finalize in Main: rank =            3
+End of Program
+
+
+End of Program
+
+
+End of Program
+
+
+End of Program
+
+
